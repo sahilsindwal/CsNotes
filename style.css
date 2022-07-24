@@ -51,3 +51,78 @@ nav ul li a:hover{
   
 }
 
+.main {
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color:  rgb(250, 219, 246);
+}
+.cross {
+    font-size: 10rem;
+    /* border: 2px solid red; */
+    background-color:  rgb(247, 189, 239);
+    border-radius: 30px;
+    color: red;
+    
+}
+h1 {
+    color: red;
+}
+
+.coursebook{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background: rgb(244, 232, 253);
+    flex-wrap: wrap;
+    
+}
+
+.java{
+    background-color:  rgb(247, 189, 239);
+    height: 200px;
+    width: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px rgb(26, 16, 16);
+    
+
+   
+}
+.cd{
+    background-color:  rgb(247, 189, 239);
+    height: 200px;
+    width: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px rgb(26, 16, 16);
+}
+.toc{
+    background-color:  rgb(247, 189, 239);
+    height: 200px;
+    width: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px rgb(26, 16, 16);
+}
+.linux{
+    background-color:  rgb(247, 189, 239);
+    height: 200px;
+    width: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px rgb(26, 16, 16);
+}
+
+

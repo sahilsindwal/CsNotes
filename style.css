@@ -5,13 +5,13 @@
 }
 .notes {
     color:  rgb(209, 78, 192);
+   
 }
 nav {
-    height: 80px;
+    height: 100px;
     background: rgb(244, 232, 253);
-    display: flex;
+    /* display: flex; */
     align-items: center;
-    justify-content: space-between;
     padding: 0px 50px 0px 90px;
 }
 
@@ -19,11 +19,16 @@ nav .logo{
     font-size: 33px;
     color: rebeccapurple;
     font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
+    justify-content: center;
+    align-items: center;
 
 }
 nav ul li{

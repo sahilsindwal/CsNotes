@@ -92,19 +92,48 @@ h1 {
 
 .java{
     text-align: center;
+    animation: mymove 1000s infinite;
+    transition: transform 1s;
+    border-radius: 15px;
 }
+.java:hover{
+    animation: mymove1 5s infinite;
+    transform: scale(1.3);
+}
+
 
 .linux {
     text-align: center;
+    animation: mymove 1000s infinite;
+    transition: transform 1s;
+    border-radius: 15px;
 }
+.linux:hover{
+    animation: mymove1 5s infinite;
+    transform: scale(1.3);
+}
+
 .cd {
     text-align: center;
+    animation: mymove 1000s infinite;
+    transition: transform 1s;
+    border-radius: 15px;
+}
+.cd:hover{
+    animation: mymove1 5s infinite;
+    transform: scale(1.3);
 }
 
 .toc {
     text-align: center;
+    animation: mymove 1000s infinite;
+    transition: transform 1s;
+    border-radius: 15px;
 }
-
+.toc:hover{
+    animation: mymove1 5s infinite;
+    transform: scale(1.3);
+}
 
 .coursebookimg{
     max-width: 50%;
@@ -112,4 +141,16 @@ h1 {
 
 .course_book_heading{
     font-size: 1rem;
+}
+
+/******************* Animation for coursebook items ******/
+@keyframes mymove {
+    0% { box-shadow: 1vw 2vw 3vw rgb(221, 134, 221);
+    
+    }
+}
+@keyframes mymove1 {
+    15% { box-shadow: 1vw 2vw 3vw rgb(82, 109, 168);
+    
+    }
 }

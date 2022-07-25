@@ -35,7 +35,7 @@ nav ul li{
     margin: 0 6px;
 }
 
-nav ul li a {
+.ss {
 
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -47,7 +47,7 @@ nav ul li a {
     border-radius: 12px;
 }
 
-nav ul li a:hover{
+.ss:hover{
     background: rgb(209, 78, 192);
 }
 .ico {
@@ -57,13 +57,11 @@ nav ul li a:hover{
 }
 
 .main {
-    /* border: 2px solid red; */
     text-align: center;
     background-color:  rgb(250, 219, 246);
 }
 .cross {
     font-size: 10rem;
-    /* border: 2px solid red; */
     background-color:  rgb(247, 189, 239);
     border-radius: 30px;
     color: red;

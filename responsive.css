@@ -8,5 +8,14 @@
     padding: 0px 10px;
 }
 
+.coursebook{
+
+    display: block;
+    height: 670px;
+
+}
+.java, .linux, .cd, .toc {
+    margin-bottom: 50px;
+}
 
 }

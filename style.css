@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 *{
     margin: 0;
@@ -192,3 +193,62 @@ h1 {
     font-size: 0.8rem;
 }
 
+
+/************footer work here ***********/
+
+footer{
+    background-color: rgb(250, 219, 246);
+    margin-top: 3rem;
+    
+}
+
+.quick h1{
+    text-align: center;
+    color: rgb(204, 48, 74);
+
+}
+
+.quick ul {
+
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick ul li {
+
+    padding: 6px;
+}
+
+.shear_maintainer{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.mlogo{
+    max-width: 30%;
+}
+
+.maintainer {
+    text-align: center;
+}
+
+.maintainer h3 {
+    font-size: 0.8rem;
+    font-family: 'Fasthand', cursive;
+    color: red;
+
+}
+.shear {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+
+}
+
+.shear i {
+    padding: 4px;
+}

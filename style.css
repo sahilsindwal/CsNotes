@@ -1,12 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.notes {
-    color:  rgb(209, 78, 192);
-   
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+body {
+
+    background-color:rgb(235, 228, 220)
 }
+
+.notes {
+    color: rgb(209, 78, 192);
+
+}
+
 nav {
     height: 100px;
     background: rgb(244, 232, 253);
@@ -15,7 +23,7 @@ nav {
     padding: 0px 50px 0px 90px;
 }
 
-nav .logo{
+nav .logo {
     font-size: 33px;
     color: rebeccapurple;
     font-weight: 600;
@@ -31,7 +39,8 @@ nav ul {
     align-items: center;
 
 }
-nav ul li{
+
+nav ul li {
     margin: 0 6px;
 }
 
@@ -47,34 +56,37 @@ nav ul li{
     border-radius: 12px;
 }
 
-.ss:hover{
+.ss:hover {
     background: rgb(209, 78, 192);
 }
+
 .ico {
     color: rgb(209, 78, 192);
     font-size: 1.8rem;
-  
+
 }
 
 .main {
     text-align: center;
-    background-color:  rgb(250, 219, 246);
+    background-color: rgb(250, 219, 246);
 }
+
 .cross {
     font-size: 10rem;
-    background-color:  rgb(247, 189, 239);
+    background-color: rgb(247, 189, 239);
     border-radius: 30px;
     color: red;
-    
+
 }
+
 h1 {
     color: red;
 }
 
 /*course book works here *****/
 
-.coursebook{
-    margin-top: 3rem;
+.coursebook {
+    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -82,7 +94,7 @@ h1 {
     background: rgb(244, 228, 255);
     max-width: 100%;
     height: 300px;
-    
+
 }
 
 .ico_coursbook {
@@ -90,56 +102,91 @@ h1 {
     font-size: 5rem;
 }
 
-.java, .uml{
+.java,
+.uml {
     text-align: center;
     animation: mymove 1000s infinite;
     transition: transform 1s;
     border-radius: 15px;
 }
-.java:hover, .uml:hover{
+
+.java:hover,
+.uml:hover {
     animation: mymove1 5s infinite;
     transform: scale(1.3);
 }
 
 
-.linux, .dbms {
+.linux,
+.dbms {
     text-align: center;
     animation: mymove 1000s infinite;
     transition: transform 1s;
     border-radius: 15px;
 }
-.linux:hover,.dbms:hover{
+
+.linux:hover,
+.dbms:hover {
     animation: mymove1 5s infinite;
     transform: scale(1.3);
 }
 
-.cd, .cn {
+.cd,
+.cn {
     text-align: center;
     animation: mymove 1000s infinite;
     transition: transform 1s;
     border-radius: 15px;
 }
-.cd:hover, .cn:hover{
+
+.cd:hover,
+.cn:hover {
     animation: mymove1 5s infinite;
     transform: scale(1.3);
 }
 
-.toc, .os {
+.toc,
+.os {
     text-align: center;
     animation: mymove 1000s infinite;
     transition: transform 1s;
     border-radius: 15px;
 }
-.toc:hover,.os:hover{
+
+.toc:hover,
+.os:hover {
     animation: mymove1 5s infinite;
     transform: scale(1.3);
 }
 
-.coursebookimg{
+.coursebookimg {
     max-width: 50%;
 }
 
-.course_book_heading{
+.course_book_heading {
     font-size: 0.8rem;
 }
 
+
+.container {
+    margin-top: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color: red;
+  }
+  
+  .scrolling {
+    animation: marquee 3s alternate-reverse linear infinite;
+    display: inline-block;
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to { 
+      transform: translateX(-100%);
+    }
+  }

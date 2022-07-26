@@ -38,7 +38,7 @@
     
 }
 
-.java_notes h2{
+.java_notes h2, img{
     margin: 10px 0 10px 30px;
     font-size: 2rem;
 
@@ -52,4 +52,50 @@
     margin-top: 10px;
     margin-left: 30px;
     
+}
+
+.jump_buttons{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.jump_buttons a {
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 30px 0 0 20px;
+    padding: 5px 25px 5px 25px;
+    background-color: rgb(230, 111, 214);
+    border-radius: 10px;
+    text-decoration: none;
+}
+.jump_buttons a:hover{
+    background-color: rgb(177, 162, 233);
+}
+
+/****************JDK & JRE page Work here *****/
+ 
+.jump_buttons_updated {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.jump_buttons_updated  a {
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 30px 0 0 20px;
+    padding: 5px 25px 5px 25px;
+    background-color: rgb(230, 111, 214);
+    border-radius: 10px;
+    text-decoration: none;
+}
+.jump_buttons_updated  a:hover{
+    background-color: rgb(177, 162, 233);
+}
+.jump_buttons_updated {
+
+
 }

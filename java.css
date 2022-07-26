@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.javac{
+    display: flex; 
+
+}
+
+.java_menu{
+    width: 22%;
+    font-size: 1.3rem;
+    background-color: antiquewhite;
+
+}
+
+.java_menu ul{
+    margin-top: 2rem;
+    list-style: none;
+}
+
+.java_menu ul li{
+    margin-bottom: 5px;
+    padding:5px 0 4px 10px;
+}
+
+.java_menu ul li a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(189, 17, 132);
+}
+
+
+.java_notes{
+    max-width: 78%;
+    height: 90%;
+    
+}
+
+.java_notes h2{
+    margin: 10px 0 10px 30px;
+    font-size: 2rem;
+
+}
+.java_notes p,.java_notes li {
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 10px 0 10px 30px;
+}
+.java_notes ul {
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}

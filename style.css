@@ -142,6 +142,10 @@ h1 {
     transform: scale(1.3);
 }
 
+.java a, .linux a, .cd a, .toc a {
+    text-decoration: none;
+    color: black;
+}
 
 .linux,
 .dbms {

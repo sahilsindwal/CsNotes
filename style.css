@@ -1,13 +1,14 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 
 body {
 
-    background-color:rgb(235, 228, 220)
+    background-color: rgb(235, 228, 220)
 }
 
 .notes {
@@ -18,7 +19,6 @@ body {
 nav {
     height: 100px;
     background: rgb(244, 232, 253);
-    /* display: flex; */
     align-items: center;
     padding: 0px 50px 0px 90px;
 }
@@ -81,6 +81,32 @@ nav ul li {
 
 h1 {
     color: red;
+}
+
+/********************Marquee Work here *****/
+.container {
+    margin-top: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.2rem;
+    color: red;
+}
+
+.scrolling {
+    animation: marquee 3s alternate-reverse linear infinite;
+    display: inline-block;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
 }
 
 /*course book works here *****/
@@ -167,26 +193,3 @@ h1 {
     font-size: 0.8rem;
 }
 
-
-.container {
-    margin-top: 1rem;
-    overflow: hidden;
-    white-space: nowrap;
-    text-align: center;
-    font-family: 'Prompt', sans-serif;
-    color: red;
-  }
-  
-  .scrolling {
-    animation: marquee 3s alternate-reverse linear infinite;
-    display: inline-block;
-  }
-  
-  @keyframes marquee {
-    from {
-      transform: translateX(0);
-    }
-    to { 
-      transform: translateX(-100%);
-    }
-  }

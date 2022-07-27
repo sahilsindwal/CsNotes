@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JVM Variable</title>
+    <title>Java Expressions & Statements</title>
     <!-- Boxicons CSS -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="java.css">
@@ -64,79 +64,31 @@
         </div>
         <div class="java_notes">
             <div>
-                <h2> Java literals:</h2>
-                <p>Literals are data used for representing fixed values. They can be used directly in the code. For
-                    example,</p>
+                <h2>Java Expressions::</h2>
+                <p>A Java expression consists of variables, operators, literals, and method calls. To know more about method calls, visit Java methods. For example, </p>
 
-                <img src="src/literals1.png" alt="">
+                <img src="src/expression.png" alt="JDK">
 
-                <p><strong>Here, 1, 2.5, and 'F' are literals</strong></p>
+                <p>Here, score = 90 is an expression that returns an int this is known as java expression</p>
 
-                <h2>Types of literals in Java:</h2>
-
-                <ul>
-                    <li>
-                        <strong>Boolean Literals:</strong>
-                    </li>
-                    <p>In Java, boolean literals are used to initialize boolean data types. They can store two values:
-                        true and false. For example,</p>
-
-                    <img src="src/literals2.png" alt="">
-                    <p><strong>Here, false and true are two boolean literals.</strong></p>
-
-
-                    <li><strong>Integer Literals:</strong> </li>
-                    <p>An integer literal is a numeric value(associated with numbers) without any fractional or
-                        exponential part. There are 4 types of integer literals in Java:</p>
-
-                    <p>
-                        <strong>
-                            1. binary (base 2)
-                            2. decimal (base 10)
-                            3. octal (base 8)
-                            4. hexadecimal (base 16)
-
-                        </strong>
+                <h2> Java Statements:</h2>
+                <p>In Java, each statement is a complete unit of execution. For example,
+                   <p><strong style="color: red;">int score = 9*5;</strong> </p> 
+                    <p>Here, we have a statement. The complete execution of this statement involves multiplying integers 9 and 5 and then assigning the result to the variable score.</p> 
+                    <p>In Java, expressions are part of statements. In the above statement, we have an expression <strong style="color: red;"> 9 * 5</strong></p> 
                     </p>
 
-                    <h3>Example:</h3>
-                    <img src="src/literals3.png" alt="">
+                <h2>Expression statements:</h2>
+                <p>We can convert an expression into a statement by terminating the expression with a ;. These are known as expression statements. For example,</p>
 
-                    <p><strong>In Java, binary starts with 0b, octal starts with 0, and hexadecimal starts with
-                            0x.</strong></p>
-
-                    <li><strong>Floating-point Literals:</strong>
-                    </li>
-
-                    <p>A floating-point literal is a numeric literal that has either a fractional form or an exponential
-                        form. For example,</p>
-
-                    <img src="src/literals4.png" alt="">
-
-                    <li><strong>Character Literals:</strong></li>
-
-                    <p>Character literals are Unicode character enclosed inside single quotes ‘. For example,</p>
-
-                    <img src="src/literals5.png" alt="">
-                    <p>Here, a is the character literal.</p>
-                    <p><strong>We can also use escape sequences as character literals. For example, \b (backspace), \t
-                            (tab), \n (new line), etc.</strong></p>
-
-                    <li><strong>String literals:</strong></li>
-                    <p>A string literal is a sequence of characters enclosed inside double-quotes. For example,</p>
-
-                    <img src="src/literals6.png" alt="">
-                    <p>Here, Java Programming is string literals.</p>
-
-                </ul>
-
-
+                <img src="src/exst.png" alt="">
+                <p>In the above example, we have an expression number = 10. Here, by adding a semicolon (;), we have converted the expression into a statement (number = 10;).</p>
 
             </div>
 
             <div class="jump_buttons_updated">
-                <a href="variable.html">Pre</a>
-                <a href="datatype.html">Next</a>
+                <a href="operators.html">Pre</a>
+                <a href="control_flow.html">Next</a>
             </div>
         </div>
     </div>

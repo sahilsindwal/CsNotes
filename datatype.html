@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JVM Variable</title>
+    <title>Java Data Types</title>
     <!-- Boxicons CSS -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="java.css">
@@ -64,79 +64,59 @@
         </div>
         <div class="java_notes">
             <div>
-                <h2> Java literals:</h2>
-                <p>Literals are data used for representing fixed values. They can be used directly in the code. For
-                    example,</p>
+                <h2>Java Data Types (Primitive):</h2>
+                <p>As the name suggests, data types specify the type of data that can be stored inside variables in Java. Java is a statically-typed language. This means that all variables must be declared before they can be used.</p>
 
-                <img src="src/literals1.png" alt="">
+                <img src="src/datatype1.png" alt="error">
 
-                <p><strong>Here, 1, 2.5, and 'F' are literals</strong></p>
+                <p>Here, speed is a variable, and the data type of the variable is int. The int data type determines that the speed variable can only contain integers.</p>
+                
+                <p><strong>Here are 8 data types predefined in Java, known as primitive data types.</strong></p>
 
-                <h2>Types of literals in Java:</h2>
+                <ul style="list-style:numbers">
+                    <li><strong>boolean type</strong></li>
+                    <p>The boolean data type has two possible values, either true or false. Default value: false.
+                        They are usually used for true/false conditions.
+                        </p>
 
-                <ul>
-                    <li>
-                        <strong>Boolean Literals:</strong>
-                    </li>
-                    <p>In Java, boolean literals are used to initialize boolean data types. They can store two values:
-                        true and false. For example,</p>
+                        <!-- <h3>Example:</h3> -->
 
-                    <img src="src/literals2.png" alt="">
-                    <p><strong>Here, false and true are two boolean literals.</strong></p>
-
-
-                    <li><strong>Integer Literals:</strong> </li>
-                    <p>An integer literal is a numeric value(associated with numbers) without any fractional or
-                        exponential part. There are 4 types of integer literals in Java:</p>
-
-                    <p>
-                        <strong>
-                            1. binary (base 2)
-                            2. decimal (base 10)
-                            3. octal (base 8)
-                            4. hexadecimal (base 16)
-
-                        </strong>
-                    </p>
+                        <li><strong>byte type</strong></li>
+                    <p>The byte data type can have values from -128 to 127 (8-bit signed two's complement integer). If it's certain that the value of a variable will be within -128 to 127, then it is used instead of int to save memory. In this type data the default value: 0</p>
 
                     <h3>Example:</h3>
-                    <img src="src/literals3.png" alt="">
+                    <img src="src/datatype2.png" alt="error">
 
-                    <p><strong>In Java, binary starts with 0b, octal starts with 0, and hexadecimal starts with
-                            0x.</strong></p>
 
-                    <li><strong>Floating-point Literals:</strong>
-                    </li>
+                    <li><strong>short type</strong></li>
+                    <p>The short data type in Java can have values from -32768 to 32767 (16-bit signed two's complement integer). If it's certain that the value of a variable will be within -32768 and 32767, then it is used instead of other integer data types (int, long). In this type data the default value: 0</p>
 
-                    <p>A floating-point literal is a numeric literal that has either a fractional form or an exponential
-                        form. For example,</p>
+                    <h3>Example:</h3>
+                    <img src="src/datatype3.png" alt="error">
 
-                    <img src="src/literals4.png" alt="">
 
-                    <li><strong>Character Literals:</strong></li>
+                    <li><strong>int type</strong></li>
+                    <p>The int data type can have values from -231 to 231-1 (32-bit signed two's complement integer). If you are using Java 8 or later, you can use an unsigned 32-bit integer. This will have a minimum value of 0 and a maximum value of 232-1. To learn more, visit How to use the unsigned integer in java 8?
+                        Default value: 0
+                        </p>
 
-                    <p>Character literals are Unicode character enclosed inside single quotes ‘. For example,</p>
+                    <h3>Example:</h3>
+                    <img src="src/datatype4.png" alt="error">
 
-                    <img src="src/literals5.png" alt="">
-                    <p>Here, a is the character literal.</p>
-                    <p><strong>We can also use escape sequences as character literals. For example, \b (backspace), \t
-                            (tab), \n (new line), etc.</strong></p>
+                    <li><strong>long type</strong></li>
+                    <p>The long data type can have values from   -263 to 263-1 (64-bit signed two's complement integer). If you are using Java 8 or later, you can use an unsigned 64-bit integer with a minimum value of 0 and a maximum value of 264-1. In this type data the default value: 0
+                        </p>
 
-                    <li><strong>String literals:</strong></li>
-                    <p>A string literal is a sequence of characters enclosed inside double-quotes. For example,</p>
-
-                    <img src="src/literals6.png" alt="">
-                    <p>Here, Java Programming is string literals.</p>
+                    <h3>Example:</h3>
+                    <img src="src/datatype5.png" alt="error">
 
                 </ul>
-
-
 
             </div>
 
             <div class="jump_buttons_updated">
-                <a href="variable.html">Pre</a>
-                <a href="datatype.html">Next</a>
+                <a href="literals.html">Pre</a>
+                <a href="operators.html">Next</a>
             </div>
         </div>
     </div>

@@ -33,6 +33,7 @@
 
 
 .java_notes{
+    padding-top: 5rem ;
     max-width: 78%;
     height: 90%;
     
@@ -49,7 +50,7 @@
     margin: 10px 0 10px 30px;
 }
 
-.java_notes p,.java_notes li {
+.java_notes p,.java_notes li, .java_notes h3{
     font-size: 1.3rem;
     padding: 10px;
     margin: 10px 0 10px 30px;

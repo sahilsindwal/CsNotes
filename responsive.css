@@ -21,4 +21,11 @@
 .java_menu{
     display: none;
 }
+/***************** For Java.html****/
+
+.java_notes{
+    max-width: 100%;
+    height: 90%;
+    
+}
 }

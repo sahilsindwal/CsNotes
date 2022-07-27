@@ -85,7 +85,9 @@
 .jump_buttons_updated {
     display: flex;
     justify-content: center;
+    justify-items: center;
     max-width: 100%;
+    margin-bottom: 2rem; ;
 }
 
 .jump_buttons_updated  a {

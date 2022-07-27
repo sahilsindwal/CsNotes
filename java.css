@@ -33,6 +33,7 @@
 
 
 .java_notes{
+    padding-top: 5rem ;
     max-width: 78%;
     height: 90%;
     
@@ -49,7 +50,7 @@
     margin: 10px 0 10px 30px;
 }
 
-.java_notes p,.java_notes li {
+.java_notes p,.java_notes li, .java_notes h3{
     font-size: 1.3rem;
     padding: 10px;
     margin: 10px 0 10px 30px;
@@ -85,7 +86,9 @@
 .jump_buttons_updated {
     display: flex;
     justify-content: center;
+    justify-items: center;
     max-width: 100%;
+    margin-bottom: 2rem; ;
 }
 
 .jump_buttons_updated  a {

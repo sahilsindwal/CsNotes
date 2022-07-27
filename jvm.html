@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JVM & Working</title>
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="java.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            Cs<span class="notes">Notes</span>
+        </div>
+        <ul>
+            <li><a href="index.html"><i class='bx bx-home-smile ico'></i></a><a class="ss" href="index.html">Home</a>
+            </li>
+            <li><a href=""><i class='bx bx-cart-download ico'></i></a><a class="ss" href="#">DownNotes</a> </li>
+            <li><a href=""><i class='bx bxs-book-open ico'></i></a><a class="ss" href="#">Course</a> </li>
+            <li><a href=""><i class='bx bxs-user ico'></i></a><a class="ss" href="#">AboutUs</a> </li>
+        </ul>
+    </nav>
+
+    <div class="javac">
+        <div class="java_menu">
+            <ul>
+                <li><a href="java.html">What is Java ?</a> </li>
+                <li><a href="jdk_jre.html">JDK & JRE</a> </li>
+                <li><a href="jvm.html">JVM & Working</a> </li>
+                <li><a href="bytecode.html">Java Byte Code</a> </li>
+                <li><a href="keycon.html">Java Keywords & constants</a></li>
+                <li><a href="variable.html">Java Variable</a> </li>
+                <li><a href="literals.html">Java Literals</a> </li>
+                <li><a href="">Java Data Types</a> </li>
+                <li><a href="">Java Operators</a> </li>
+                <li><a href="">Java Expressions & Statements</a> </li>
+                <li><a href="">Control Flow In Java</a> </li>
+                <li><a href="">Java Classes</a> </li>
+                <li><a href="">Java Objects</a> </li>
+                <li><a href="">Java Methods</a> </li>
+                <li><a href="">Java Inheritance</a> </li>
+                <li><a href="">Java Access Modifiers</a> </li>
+                <li><a href="">Abstraction</a> </li>
+                <li><a href="">Abstact Class</a> </li>
+                <li><a href="">Interface In Java</a> </li>
+                <li><a href="">Java Packages & Basic types</a> </li>
+                <li><a href="">Java Exeptions & types</a> </li>
+                <li><a href="">Java Thread & Creation of Thread</a> </li>
+                <li><a href="">Runnable Interface</a> </li>
+                <li><a href="">Java Thread Model & life cycle</a> </li>
+                <li><a href="">Thread Synchronisation</a> </li>
+                <li><a href="">final Keyword</a> </li>
+                <li><a href="">Java I/O Streams & Types</a> </li>
+                <li><a href="">Pre-Defined Streams</a> </li>
+                <li><a href="">Wrapper Class</a> </li>
+
+
+            </ul>
+        </div>
+        <div class="java_notes">
+            <div>
+                <h2>JVM(Java Virtual Machine):</h2>
+                <p>Java virtual machine(JVM) is an engine that provides a Runtime Environment to Drive (execute) the
+                    java code or applications. it convert java bytecode into machine language. JVM is a part of the Java
+                    Runtime Environment (JRE). in other programming languages, the compiler produces machine code for a
+                    particular system. however, the java compiler produces code for a virtual machine known as java
+                    virtual </p>
+
+                <h2>JVM Architecture:</h2>
+                <p>Java virtual machine (JVM) in JAVA contains classloader, Memory Area, Execution Engine, etc.</p>
+                <img src="src/jvm.png" alt="jvm">
+
+
+                <ul style="list-style:number;">
+
+                    <li>
+                        <h3>classloader:</h3>
+                        <p>The class loader is a subsystem used for loading class file. It perform three major function
+                            loading, linking and initialtization</p>
+                    </li>
+
+                    <li>
+                        <h3>Method Area:</h3>
+                        <p>JVM method area stores class stuctures like metadata, the Constant Runtime pool and the code
+                            for methods.</p>
+                    </li>
+
+                    <li>
+                        <h3>Heap Area:</h3>
+                        <p>All the objects, their realted instance varaible and arrays are stored in the heap area. this
+                            memory is common and shared across multiple threads</p>
+                    </li>
+                    <li>
+                        <h3>JVM language Stacks:</h3>
+                        <p>Java language Stacks store local varaible and it's partial result. each thread has it's own
+                            JVM stack and this created simultaneously as the thread is created.</p>
+                    </li>
+                    <li>
+                        <h3>PC Registers:</h3>
+                        <p> PC Registers store the address of the java virtual machine instructions which is currently
+                            executing in java, each thread has it's separated PC Registers</p>
+                    </li>
+                    <li>
+                        <h3>Native Method Stacks:</h3>
+                        <p>Native method stack hold the instructions of native code depends on the native library. It is
+                            written in another programming language instead of java </p>
+                    </li>
+                    <li>
+                        <h3>Execution Engine:</h3>
+                        <p>It is a type of software used to test hardware, software or complete system. The test
+                            execution never carries any information about the tested product </p>
+                    </li>
+                    <li>
+                        <h3>Native Method Interface:</h3>
+                        <p>The Native method interface is a programming framework. It allows java code which is running
+                            in a JVM to call by libraries and native applications </p>
+                    </li>
+                    <li>
+                        <h3>Native Method Libraries:</h3>
+                        <p>This libraries is a collection of the native libraries like (c, c++) which are need by the
+                            execution engine. </p>
+                    </li>
+
+                </ul>
+
+                <h2>Working Of Java Virtual Machine</h2>
+                <p>Let's understand the working of JVM on different processors and O.S step by step</p>
+
+                <h3>Block Diagram:</h3>
+                <img src="src/jvm_working.png" alt="">
+
+                <h3>Step.1</h3>
+                <p>The code to Display the addition of two numbers is system.out.println (1+2), and saved as a.java file
+                </p>
+
+                <h3>Step.2</h3>
+                <p>Then java compiler convert this source code to intermediat code called Bytecode. The output is a
+                    .class file</p>
+
+                <h3>Step.3</h3>
+                <p>This code is not understood by any platform, but only a virtual platform called the java virtual
+                    machine is understood this.</p>
+
+                <h3>Step.4</h3>
+                <p>This virtual machine reside in the RAM of your operating system. when the virtual machine is feed
+                    with this bytecode, it identifies the platform and it is working on Then convert the Bytecode into
+                    the native machine code</p>
+
+                <h2>Keypoint Of JVM:</h2>
+                <ul>
+                    <li>JVM provides a platform-indepedent way of executing java source code.</li>
+                    <li>JVM comes with JIT ( just-in-time) compiler that convert java source code into low-level machine
+                        language. Hence, it run faster than a regular applications</li>
+                </ul>
+
+            </div>
+
+            <div class="jump_buttons_updated">
+                <a href="jdk_jre.html">Pre</a>
+                <a href="bytecode.html">Next</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="quick">
+            <h1>Thanku! For Visiting</h1>
+            <ul class="quick_links">
+                <li><a href=""><i class='bx bx-home-smile ico'></i></a> </li>
+                <li><a href=""><i class='bx bx-cart-download ico'></i></a> </li>
+                <li><a href=""><i class='bx bxs-book-open ico'></i></a> </li>
+                <li><a href=""><i class='bx bxs-user ico'></i></a> </li>
+            </ul>
+        </div>
+        <div class="shear_maintainer">
+            <div class="shear">
+                <i class='bx bxl-twitter bx-tada ico'></i>
+                <i class='bx bxl-instagram bx-tada ico'></i>
+                <i class='bx bxl-facebook-circle bx-tada ico'></i>
+                <i class='bx bxl-telegram bx-tada ico'></i>
+            </div>
+            <div class="maintainer">
+                <img class="mlogo" src="src/mlogo.png">
+                <h3>SINDHWAL</h3>
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

@@ -209,6 +209,9 @@ footer{
 .quick h1{
     text-align: center;
     color: rgb(204, 48, 74);
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
 
 }
 
@@ -226,6 +229,7 @@ footer{
 }
 
 .shear_maintainer{
+    margin-top: 3rem;
     display: flex;
     justify-content: space-between;
 

@@ -38,11 +38,17 @@
     
 }
 
-.java_notes h2, img{
+.java_notes h2{
     margin: 10px 0 10px 30px;
     font-size: 2rem;
 
 }
+
+.java_notes img {
+    max-width: 50%;
+    margin: 10px 0 10px 30px;
+}
+
 .java_notes p,.java_notes li {
     font-size: 1.3rem;
     padding: 10px;

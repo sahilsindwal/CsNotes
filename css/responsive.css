@@ -112,6 +112,10 @@
     #check:checked~label #close_menu {
         left: 92%;
     }
+    #check:checked~ .java_menu1 {
+        position: relative;
+    
+    }
 
 
 

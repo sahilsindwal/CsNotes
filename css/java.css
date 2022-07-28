@@ -31,6 +31,14 @@
     color: rgb(189, 17, 132);
 }
 
+.java_menu ul li a:hover{
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    border-bottom: 2px solid rgb(230, 111, 214);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 5px;
+    color: rgb(135, 75, 214);
+}
 
 .java_notes{
     padding-top: 5rem ;

@@ -8,6 +8,7 @@
 
 }
 
+
 .java_menu{
     width: 22%;
     font-size: 1.3rem;
@@ -41,6 +42,54 @@
     transition: 0.4s;
 }
 
+
+/*************************duplicate code*********/
+
+#open_menu, #close_menu {
+
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.java_menu1{
+    display: none;
+    width: 22%;
+    font-size: 1.3rem;
+    background-color: antiquewhite;
+
+}
+
+.java_menu1 ul{
+    margin-top: 2rem;
+    list-style: none;
+}
+
+.java_menu1 ul li{
+    margin-bottom: 5px;
+    padding:5px 0 4px 10px;
+}
+
+.java_menu1 ul li a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(189, 17, 132);
+}
+
+.java_menu1 ul li a:hover{
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    border-bottom: 2px solid rgb(230, 111, 214);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 5px;
+    color: rgb(135, 75, 214);
+    transition: 0.4s;
+}
+
+
+/*************************duplicate code*********/
 .java_notes{
     padding-top: 5rem ;
     max-width: 78%;

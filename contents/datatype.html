@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Java Data Types</title>
     <!-- Boxicons CSS -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="java.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="../css/java.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
             Cs<span class="notes">Notes</span>
         </div>
         <ul>
-            <li><a href="index.html"><i class='bx bx-home-smile ico'></i></a><a class="ss" href="index.html">Home</a>
+            <li><a href="../index.html"><i class='bx bx-home-smile ico'></i></a><a class="ss" href="../index.html">Home</a>
             </li>
             <li><a href=""><i class='bx bx-cart-download ico'></i></a><a class="ss" href="#">DownNotes</a> </li>
             <li><a href=""><i class='bx bxs-book-open ico'></i></a><a class="ss" href="#">Course</a> </li>
@@ -64,42 +64,72 @@
         </div>
         <div class="java_notes">
             <div>
-                <h2>JDK(Java Devlopement Kit):</h2>
-                <p>JDK is a software Devlopement Environment used for making <strong>applets</strong> and <strong>Java
-                        Applications.</strong>Java Devlopers can use it on Windows, Macos And Linux. JDK help them to
-                    code and run java programs. It is also possible to install more than one JDK version on the same
-                    Computer </p>
+                <h2>Java Data Types (Primitive):</h2>
+                <p>As the name suggests, data types specify the type of data that can be stored inside variables in
+                    Java. Java is a statically-typed language. This means that all variables must be declared before
+                    they can be used.</p>
 
-                <h2>Block Diagram of JDK:</h2>
-                <img src="src/JDK.png" alt="JDK">
+                <img src="../src/datatype1.png" alt="error">
 
-                <p>The JDK contains a private java virtual machine(JVM) and a few other resources such as an
-                    interpreter/ loder(JAVA), a compiler(javaC), and archiver(jar), a Documentation generator(javadoc),
-                    etc. To complete the Devlopement of a java application</p>
-                <h2> KeyPoints of JDK:</h2>
-                <ul>
-                    <p>Here are some important JDK keypoints</p>
-                    <li>JDK contains tools required to write java programs and JRE to execute them</li>
-                    <li>It includes as a compiler, java application launcher, Appletviewer, etc.</li>
-                    <li>It includes a compiler thats converts codes written in java into byte code for virtual machine
-                    </li>
+                <p>Here, speed is a variable, and the data type of the variable is int. The int data type determines
+                    that the speed variable can only contain integers.</p>
+
+                <p><strong>Here are 8 data types predefined in Java, known as primitive data types.</strong></p>
+
+                <ul style="list-style:numbers">
+                    <li><strong>boolean type</strong></li>
+                    <p>The boolean data type has two possible values, either true or false. Default value: false.
+                        They are usually used for true/false conditions.
+                    </p>
+
+                    <!-- <h3>Example:</h3> -->
+
+                    <li><strong>byte type</strong></li>
+                    <p>The byte data type can have values from -128 to 127 (8-bit signed two's complement integer). If
+                        it's certain that the value of a variable will be within -128 to 127, then it is used instead of
+                        int to save memory. In this type data the default value: 0</p>
+
+                    <h3>Example:</h3>
+                    <img src="../src/datatype2.png" alt="error">
+
+
+                    <li><strong>short type</strong></li>
+                    <p>The short data type in Java can have values from -32768 to 32767 (16-bit signed two's complement
+                        integer). If it's certain that the value of a variable will be within -32768 and 32767, then it
+                        is used instead of other integer data types (int, long). In this type data the default value: 0
+                    </p>
+
+                    <h3>Example:</h3>
+                    <img src="../src/datatype3.png" alt="error">
+
+
+                    <li><strong>int type</strong></li>
+                    <p>The int data type can have values from -231 to 231-1 (32-bit signed two's complement integer). If
+                        you are using Java 8 or later, you can use an unsigned 32-bit integer. This will have a minimum
+                        value of 0 and a maximum value of 232-1. To learn more, visit How to use the unsigned integer in
+                        java 8?
+                        Default value: 0
+                    </p>
+
+                    <h3>Example:</h3>
+                    <img src="../src/datatype4.png" alt="error">
+
+                    <li><strong>long type</strong></li>
+                    <p>The long data type can have values from -263 to 263-1 (64-bit signed two's complement integer).
+                        If you are using Java 8 or later, you can use an unsigned 64-bit integer with a minimum value of
+                        0 and a maximum value of 264-1. In this type data the default value: 0
+                    </p>
+
+                    <h3>Example:</h3>
+                    <img src="../src/datatype5.png" alt="error">
 
                 </ul>
-
-                <h2>JRE(Java Runtime Environment)</h2>
-                <p>JRE is an acronym for java Runtime Environment.It is also Written as JAVA RTE. The JRE is a set of
-                    software tools which are used for Devloping java Applications. It contains the class libraries.
-                    loader class and JVM. In simple terms, if you want to run a java programs you need JRE. if you are
-                    note a programmer you don't need to install JDK, but just JRE to run Java programs</p>
-
-                <h2>Block Diagram of JDK:</h2>
-                <img src="src/jre.png" alt="">
 
             </div>
 
             <div class="jump_buttons_updated">
-                <a href="exception.html">Pre</a>
-                <a href="r_interface.html">Next</a>
+                <a href="literals.html">Pre</a>
+                <a href="operators.html">Next</a>
             </div>
         </div>
     </div>
@@ -121,7 +151,7 @@
                 <i class='bx bxl-telegram bx-tada ico'></i>
             </div>
             <div class="maintainer">
-                <img class="mlogo" src="src/mlogo.png">
+                <img class="mlogo" src="../src/mlogo.png">
                 <h3>SINDHWAL</h3>
 
             </div>

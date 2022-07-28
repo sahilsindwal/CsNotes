@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Java Objects</title>
+    <title>JVM Variable</title>
     <!-- Boxicons CSS -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="java.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="../css/java.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
             Cs<span class="notes">Notes</span>
         </div>
         <ul>
-            <li><a href="index.html"><i class='bx bx-home-smile ico'></i></a><a class="ss" href="index.html">Home</a>
+            <li><a href="../index.html"><i class='bx bx-home-smile ico'></i></a><a class="ss" href="../index.html">Home</a>
             </li>
             <li><a href=""><i class='bx bx-cart-download ico'></i></a><a class="ss" href="#">DownNotes</a> </li>
             <li><a href=""><i class='bx bxs-book-open ico'></i></a><a class="ss" href="#">Course</a> </li>
@@ -64,43 +64,81 @@
         </div>
         <div class="java_notes">
             <div>
-                <h2>Java Objects::</h2>
-                <p>An object is any entity that has a state and behavior. For example, a bicycle is an object. It has
-                </p>
-                <ul style="list-style:numbers;">
-                    <li><strong>States:</strong> idle, first gear, etc</li>
+                <h2> Java Variables :</h2>
+                <p>A variable is a location in memory (storage area) to hold data. To indicate the storage area, each
+                    variable should be given a unique name (identifier).</p>
 
-                    <li><strong>Behaviors:</strong> braking, accelerating, etc.</li>
+                <h3>Create Variables in Java:</h3>
+                <p>Here's how we create a variable in Java</p>
+
+                <img src="../src/variable1.png" alt="error">
+                <p>Here, speedLimit is a variable of int data type. The int data type suggests that the variable can
+                    only hold integers value. and we have assigned value 80 to it.</p>
+
+                <p><strong>we can declare variables and assign variables separately. For example,</strong></p>
+
+                <img src="../src/variable2.png" alt="error">
+
+                <h3>Change values of variables:</h3>
+                <p>Variable is a combination of <strong>“vary+able”</strong> which means its value can be changed </p>
+
+                <img src="../src/variable3.png" alt="error">
+
+                <p>Here, initially, the value of speedLimit is 80. Later, we changed it to 90. However, we cannot change
+                    the data type of a variable in Java within the same scope.</p>
+
+                <h3>Rules for Naming Variables in Java:</h3>
+                <p>We have to follow some java rules for naming the variable which is as follow</p>
+
+
+                <ul style="list-style:number;">
+
+                    <li>
+                        <strong>Java is case sensitive. Hence, age and AGE are two different variables. For
+                            example,</strong>
+
+                    </li>
+
+                    <img src="../src/variable4.png" alt="error">
+
+
+                    <li>
+                        <strong>Variables must start with either a letter or an underscore, _ or a dollar, $ sign.
+                            For example,</strong>
+
+                    </li>
+
+                    <img src="../src/variable5.png" alt="error">
+
+                    <li>
+                        <strong>Variable names cannot start with numbers. For example,</strong>
+
+                    </li>
+                    <img src="../src/variable6.png" alt="error">
+
+                    <li>
+                        <strong>Variable names can't use whitespace. For example,</strong>
+
+                    </li>
+                    <img src="../src/variable7.png" alt="error">
+
 
                 </ul>
-                <h3>Creating an Object in Java:</h3>
-                <p>Here is how we can create an object of a class.</p>
-                <img src="src/object1.png" alt="error">
 
-                <p>We have used the new keyword along with the constructor of the class to create an object.
-                    Constructors are similar to methods and have the same name as the class. For example, Bicycle() is
-                    the constructor of the Bicycle class.
-                <p>Here, sportsBicycle and touringBicycle are the names of objects. We can use them to access fields and
-                    methods of the class.</p>
-
-                <h3>Access Members of a Class by object:</h3>
-                <p>We can use the name of objects along with the operator to access members of a class. For example</p>
-
-                <img src="src/object2.png" alt="error">
-                <p>In the above example, we have created a class named Bicycle. It includes a field named gear and a
-                    method named braking(). Notice the statement,</p>
-
-                <img src="src/object3.png" alt="">
-
-                <p><strong>Here, we have created an object of Bicycle named sportsBicycle. We then use the object to
-                        access the field and method of the class.</strong></p>
-
+                <h2>Types Of Java Variable:</h2>
+                <p>There are 4 types of variables in Java programming language:</p>
+                <ul style="list-style: numbers">
+                    <li>Instance Variables (Non-Static Fields)</li>
+                    <li>Class Variables (Static Fields)</li>
+                    <li>Local Variables</li>
+                    <li>Parameters</li>
+                </ul>
 
             </div>
 
             <div class="jump_buttons_updated">
-                <a href="classes.html">Pre</a>
-                <a href="methods.html">Next</a>
+                <a href="keycon.html">Pre</a>
+                <a href="literals.html">Next</a>
             </div>
         </div>
     </div>
@@ -122,7 +160,7 @@
                 <i class='bx bxl-telegram bx-tada ico'></i>
             </div>
             <div class="maintainer">
-                <img class="mlogo" src="src/mlogo.png">
+                <img class="mlogo" src="../src/mlogo.png">
                 <h3>SINDHWAL</h3>
 
             </div>

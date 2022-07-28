@@ -44,7 +44,7 @@
         display: none;
     }
 
-    #open_menu {
+    #open_menu, #close_menu {
 
         display: block;
     }
@@ -59,10 +59,7 @@
         background-color: antiquewhite;
 
     }
-    .java_menu1 ul li a {
-        font-size: 2rem;
-        
-    }
+   
 
     .java_menu1 ul {
         text-align: center;

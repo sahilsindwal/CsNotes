@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Data Types</title>
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/java.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            Cs<span class="notes">Notes</span>
+        </div>
+        <ul>
+            <li><a href="../index.html"><i class='bx bx-home-smile ico'></i></a><a class="ss" href="../index.html">Home</a>
+            </li>
+            <li><a href=""><i class='bx bx-cart-download ico'></i></a><a class="ss" href="#">DownNotes</a> </li>
+            <li><a href=""><i class='bx bxs-book-open ico'></i></a><a class="ss" href="#">Course</a> </li>
+            <li><a href=""><i class='bx bxs-user ico'></i></a><a class="ss" href="#">AboutUs</a> </li>
+        </ul>
+    </nav>
+
+    <div class="javac">
+        <div class="java_menu">
+            <ul>
+                <li><a href="java.html">What is Java ?</a> </li>
+                <li><a href="jdk_jre.html">JDK & JRE</a> </li>
+                <li><a href="jvm.html">JVM & Working</a> </li>
+                <li><a href="bytecode.html">Java Byte Code</a> </li>
+                <li><a href="keycon.html">Java Keywords & constants</a></li>
+                <li><a href="variable.html">Java Variable</a> </li>
+                <li><a href="literals.html">Java Literals</a> </li>
+                <li><a href="datatype.html">Java Data Types</a> </li>
+                <li><a href="operators.html">Java Operators</a> </li>
+                <li><a href="exst.html">Java Expressions & Statements</a> </li>
+                <li><a href="control_flow.html">Control Flow In Java</a> </li>
+                <li><a href="classes.html">Java Classes</a> </li>
+                <li><a href="object.html">Java Objects</a> </li>
+                <li><a href="methods.html">Java Methods</a> </li>
+                <li><a href="inheritance.html">Java Inheritance</a> </li>
+                <li><a href="access_modifier.html">Java Access Modifiers</a> </li>
+                <li><a href="abstraction.html">Abstraction</a> </li>
+                <li><a href="ab.html">Abstact Class</a> </li>
+                <li><a href="interface.html">Interface In Java</a> </li>
+                <li><a href="packages.html">Java Packages & Basic types</a> </li>
+                <li><a href="exception.html">Java Exeptions & types</a> </li>
+                <li><a href="thread.html">Java Thread & Creation of Thread</a> </li>
+                <li><a href="r_interface.html">Runnable Interface</a> </li>
+                <li><a href="thread_lyf.html">Java Thread Model & life cycle</a> </li>
+                <li><a href="synchro.html">Thread Synchronisation</a> </li>
+                <li><a href="final.html">final Keyword</a> </li>
+                <li><a href="streams.html">Java I/O Streams & Types</a> </li>
+                <li><a href="wrapper_class.html">Wrapper Class</a> </li>
+
+
+            </ul>
+        </div>
+        <div class="java_notes">
+            <div>
+                <h2>Java Data Types (Primitive):</h2>
+                <p>As the name suggests, data types specify the type of data that can be stored inside variables in
+                    Java. Java is a statically-typed language. This means that all variables must be declared before
+                    they can be used.</p>
+
+                <img src="../src/datatype1.png" alt="error">
+
+                <p>Here, speed is a variable, and the data type of the variable is int. The int data type determines
+                    that the speed variable can only contain integers.</p>
+
+                <p><strong>Here are 8 data types predefined in Java, known as primitive data types.</strong></p>
+
+                <ul style="list-style:numbers">
+                    <li><strong>boolean type</strong></li>
+                    <p>The boolean data type has two possible values, either true or false. Default value: false.
+                        They are usually used for true/false conditions.
+                    </p>
+
+                    <!-- <h3>Example:</h3> -->
+
+                    <li><strong>byte type</strong></li>
+                    <p>The byte data type can have values from -128 to 127 (8-bit signed two's complement integer). If
+                        it's certain that the value of a variable will be within -128 to 127, then it is used instead of
+                        int to save memory. In this type data the default value: 0</p>
+
+                    <h3>Example:</h3>
+                    <img src="../src/datatype2.png" alt="error">
+
+
+                    <li><strong>short type</strong></li>
+                    <p>The short data type in Java can have values from -32768 to 32767 (16-bit signed two's complement
+                        integer). If it's certain that the value of a variable will be within -32768 and 32767, then it
+                        is used instead of other integer data types (int, long). In this type data the default value: 0
+                    </p>
+
+                    <h3>Example:</h3>
+                    <img src="../src/datatype3.png" alt="error">
+
+
+                    <li><strong>int type</strong></li>
+                    <p>The int data type can have values from -231 to 231-1 (32-bit signed two's complement integer). If
+                        you are using Java 8 or later, you can use an unsigned 32-bit integer. This will have a minimum
+                        value of 0 and a maximum value of 232-1. To learn more, visit How to use the unsigned integer in
+                        java 8?
+                        Default value: 0
+                    </p>
+
+                    <h3>Example:</h3>
+                    <img src="../src/datatype4.png" alt="error">
+
+                    <li><strong>long type</strong></li>
+                    <p>The long data type can have values from -263 to 263-1 (64-bit signed two's complement integer).
+                        If you are using Java 8 or later, you can use an unsigned 64-bit integer with a minimum value of
+                        0 and a maximum value of 264-1. In this type data the default value: 0
+                    </p>
+
+                    <h3>Example:</h3>
+                    <img src="../src/datatype5.png" alt="error">
+
+                </ul>
+
+            </div>
+
+            <div class="jump_buttons_updated">
+                <a href="literals.html">Pre</a>
+                <a href="operators.html">Next</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="quick">
+            <h1>Thanku! For Visiting</h1>
+            <ul class="quick_links">
+                <li><a href=""><i class='bx bx-home-smile ico'></i></a> </li>
+                <li><a href=""><i class='bx bx-cart-download ico'></i></a> </li>
+                <li><a href=""><i class='bx bxs-book-open ico'></i></a> </li>
+                <li><a href=""><i class='bx bxs-user ico'></i></a> </li>
+            </ul>
+        </div>
+        <div class="shear_maintainer">
+            <div class="shear">
+                <i class='bx bxl-twitter bx-tada ico'></i>
+                <i class='bx bxl-instagram bx-tada ico'></i>
+                <i class='bx bxl-facebook-circle bx-tada ico'></i>
+                <i class='bx bxl-telegram bx-tada ico'></i>
+            </div>
+            <div class="maintainer">
+                <img class="mlogo" src="../src/mlogo.png">
+                <h3>SINDHWAL</h3>
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

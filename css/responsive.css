@@ -120,3 +120,14 @@
 
 
 }
+
+
+/************Specifying Print Area****/
+
+@media print {
+  .java_menu, .java_menu1, footer, nav ul{
+
+    display: none;
+  }
+     
+}

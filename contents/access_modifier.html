@@ -106,36 +106,55 @@
         </div>
         <div class="java_notes">
             <div>
-                <h2>JDK(Java Devlopement Kit):</h2>
-                <p>JDK is a software Devlopement Environment used for making <strong>applets</strong> and <strong>Java
-                        Applications.</strong>Java Devlopers can use it on Windows, Macos And Linux. JDK help them to
-                    code and run java programs. It is also possible to install more than one JDK version on the same
-                    Computer </p>
+                <h2>Java Access Modifiers:</h2>
+                <p>In Java, access modifiers are used to set the accessibility (visibility) of classes, interfaces, variables, methods, constructors, data members, and the setter methods. For example,</p>
 
-                <h2>Block Diagram of JDK:</h2>
-                <img src="../src/JDK.png" alt="error">
+                <img src="../src/access1.png" alt="error">
 
-                <p>The JDK contains a private java virtual machine(JVM) and a few other resources such as an
-                    interpreter/ loder(JAVA), a compiler(javaC), and archiver(jar), a Documentation generator(javadoc),
-                    etc. To complete the Devlopement of a java application</p>
-                <h2> KeyPoints of JDK:</h2>
-                <ul>
-                    <p>Here are some important JDK keypoints</p>
-                    <li>JDK contains tools required to write java programs and JRE to execute them</li>
-                    <li>It includes as a compiler, java application launcher, Appletviewer, etc.</li>
-                    <li>It includes a compiler thats converts codes written in java into byte code for virtual machine
-                    </li>
+                <p><strong>In the above example,</strong> we have declared 2 methods: <strong>method1() </strong> and <strong>method2().</strong> Here,</p>
+                <ul style="list-style: numbers;">
+                    <li><strong>method1() is public - </strong> This means it can be accessed by other classes.</li>
+                    <li><strong>method2() is private - </strong> This means it can not be accessed by other classes.</li>
+                    <p><strong>Note:</strong>  the keyword public and 1. These are access modifiers in Java. They are also known as visibility modifiers.</p>
+                </ul>
+                <h2>Types of Access Modifier:</h2>
+                <p>There are four access modifiers keywords in Java and they are:</p>
+                <img src="../src/access2.png" alt="error">
+                <ul style="list-style: numbers;">
+                
+                <li>
+                    <h3><strong> Default Access Modifier:</strong></h3>
+                    <p>If we do not explicitly specify any access modifier for classes, methods, variables, etc, then by default the default access modifier is considered. For example,</p>
+                    <img src="../src/access3.png" alt="error">
+                    <p>Here, the Logger class has the default access modifier. And the class is visible to all the classes that belong to the defaultPackage package. However, if we try to use the Logger class in another class outside of defaultPackage, we will get a compilation error.</p>
 
+                </li>
+
+                <li>
+                    <h3><strong>Private Access Modifier:</strong></h3>
+                    <p>When variables and methods are declared private, they cannot be accessed outside of the class. For example,</p>
+                    <img src="../src/access4.png" alt="error">
+                    <p>In the above example, we have declared a private variable named name. When we run the program, we will get the  error.
+
+                    </p>
+                    
+                </li>
+
+                <li>
+                    <h3><strong>Protected Access Modifier:</strong></h3>
+                    <p>When methods and data members are declared protected, we can access them within the same package as well as from subclasses. For example,</p>
+                    <img src="../src/access5.png" alt="">
+                    <h3>Output:</h3>
+                    <h3><strong style="color: red;">I am an animal</strong></h3>
+                    
+                </li>
+
+                <li><h2><strong>Public Access Modifier:</strong></h2>
+                <p>When methods, variables, classes, and so on are declared public, then we can access them from anywhere. The public access modifier has no scope restriction. </p>
+                </li>
                 </ul>
 
-                <h2>JRE(Java Runtime Environment)</h2>
-                <p>JRE is an acronym for java Runtime Environment.It is also Written as JAVA RTE. The JRE is a set of
-                    software tools which are used for Devloping java Applications. It contains the class libraries.
-                    loader class and JVM. In simple terms, if you want to run a java programs you need JRE. if you are
-                    note a programmer you don't need to install JDK, but just JRE to run Java programs</p>
-
-                <h2>Block Diagram of JDK:</h2>
-                <img src="../src/jre.png" alt="error">
+               
 
             </div>
 

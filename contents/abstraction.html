@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Boxicons CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../css/java.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -140,6 +140,16 @@
             </div>
 
             <div class="jump_buttons_updated">
+
+                <!-- Add Print button by using JavaScript -->
+                <a style="cursor:pointer;" onclick="PrintFunction()">Print</a>
+                <script type="text/javascript">
+
+                    function PrintFunction() {
+                        window.print();
+                    }
+                </script>
+
                 <a href="access_modifier.html">Pre</a>
                 <a href="ab.html">Next</a>
             </div>

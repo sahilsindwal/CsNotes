@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Boxicons CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../css/java.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -107,58 +107,79 @@
         <div class="java_notes">
             <div>
                 <h2>Java Access Modifiers:</h2>
-                <p>In Java, access modifiers are used to set the accessibility (visibility) of classes, interfaces, variables, methods, constructors, data members, and the setter methods. For example,</p>
+                <p>In Java, access modifiers are used to set the accessibility (visibility) of classes, interfaces,
+                    variables, methods, constructors, data members, and the setter methods. For example,</p>
 
                 <img src="../src/access1.png" alt="error">
 
-                <p><strong>In the above example,</strong> we have declared 2 methods: <strong>method1() </strong> and <strong>method2().</strong> Here,</p>
+                <p><strong>In the above example,</strong> we have declared 2 methods: <strong>method1() </strong> and
+                    <strong>method2().</strong> Here,</p>
                 <ul style="list-style: numbers;">
                     <li><strong>method1() is public - </strong> This means it can be accessed by other classes.</li>
-                    <li><strong>method2() is private - </strong> This means it can not be accessed by other classes.</li>
-                    <p><strong>Note:</strong>  the keyword public and 1. These are access modifiers in Java. They are also known as visibility modifiers.</p>
+                    <li><strong>method2() is private - </strong> This means it can not be accessed by other classes.
+                    </li>
+                    <p><strong>Note:</strong> the keyword public and 1. These are access modifiers in Java. They are
+                        also known as visibility modifiers.</p>
                 </ul>
                 <h2>Types of Access Modifier:</h2>
                 <p>There are four access modifiers keywords in Java and they are:</p>
                 <img src="../src/access2.png" alt="error">
                 <ul style="list-style: numbers;">
-                
-                <li>
-                    <h3><strong> Default Access Modifier:</strong></h3>
-                    <p>If we do not explicitly specify any access modifier for classes, methods, variables, etc, then by default the default access modifier is considered. For example,</p>
-                    <img src="../src/access3.png" alt="error">
-                    <p>Here, the Logger class has the default access modifier. And the class is visible to all the classes that belong to the defaultPackage package. However, if we try to use the Logger class in another class outside of defaultPackage, we will get a compilation error.</p>
 
-                </li>
+                    <li>
+                        <h3><strong> Default Access Modifier:</strong></h3>
+                        <p>If we do not explicitly specify any access modifier for classes, methods, variables, etc,
+                            then by default the default access modifier is considered. For example,</p>
+                        <img src="../src/access3.png" alt="error">
+                        <p>Here, the Logger class has the default access modifier. And the class is visible to all the
+                            classes that belong to the defaultPackage package. However, if we try to use the Logger
+                            class in another class outside of defaultPackage, we will get a compilation error.</p>
 
-                <li>
-                    <h3><strong>Private Access Modifier:</strong></h3>
-                    <p>When variables and methods are declared private, they cannot be accessed outside of the class. For example,</p>
-                    <img src="../src/access4.png" alt="error">
-                    <p>In the above example, we have declared a private variable named name. When we run the program, we will get the  error.
+                    </li>
 
-                    </p>
-                    
-                </li>
+                    <li>
+                        <h3><strong>Private Access Modifier:</strong></h3>
+                        <p>When variables and methods are declared private, they cannot be accessed outside of the
+                            class. For example,</p>
+                        <img src="../src/access4.png" alt="error">
+                        <p>In the above example, we have declared a private variable named name. When we run the
+                            program, we will get the error.
 
-                <li>
-                    <h3><strong>Protected Access Modifier:</strong></h3>
-                    <p>When methods and data members are declared protected, we can access them within the same package as well as from subclasses. For example,</p>
-                    <img src="../src/access5.png" alt="">
-                    <h3>Output:</h3>
-                    <h3><strong style="color: red;">I am an animal</strong></h3>
-                    
-                </li>
+                        </p>
 
-                <li><h2><strong>Public Access Modifier:</strong></h2>
-                <p>When methods, variables, classes, and so on are declared public, then we can access them from anywhere. The public access modifier has no scope restriction. </p>
-                </li>
+                    </li>
+
+                    <li>
+                        <h3><strong>Protected Access Modifier:</strong></h3>
+                        <p>When methods and data members are declared protected, we can access them within the same
+                            package as well as from subclasses. For example,</p>
+                        <img src="../src/access5.png" alt="">
+                        <h3>Output:</h3>
+                        <h3><strong style="color: red;">I am an animal</strong></h3>
+
+                    </li>
+
+                    <li>
+                        <h2><strong>Public Access Modifier:</strong></h2>
+                        <p>When methods, variables, classes, and so on are declared public, then we can access them from
+                            anywhere. The public access modifier has no scope restriction. </p>
+                    </li>
                 </ul>
 
-               
+
 
             </div>
 
             <div class="jump_buttons_updated">
+                <!-- Add Print button by using JavaScript -->
+                <a style="cursor:pointer;" onclick="PrintFunction()">Print</a>
+                <script type="text/javascript">
+
+                    function PrintFunction() {
+                        window.print();
+                    }
+                </script>
+
                 <a href="inheritance.html">Pre</a>
                 <a href="abstraction.html">Next</a>
             </div>

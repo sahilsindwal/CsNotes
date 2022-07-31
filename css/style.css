@@ -207,7 +207,7 @@ footer{
 
 .quick h1{
     text-align: center;
-    color: rgb(204, 48, 74);
+    color: rgb(204, 71, 216);
     font-size: 1.4rem;
     padding-top: 1rem;
     margin-bottom: 2rem;
@@ -237,6 +237,7 @@ footer{
 
 .mlogo{
     max-width: 30%;
+    filter: invert(100%);
 }
 
 .maintainer {
@@ -246,7 +247,7 @@ footer{
 .maintainer h3 {
     font-size: 0.8rem;
     font-family: 'Fasthand', cursive;
-    color: red;
+    color:  rgb(204, 71, 216);
 
 }
 .shear {
@@ -257,5 +258,5 @@ footer{
 }
 
 .shear i {
-    padding: 4px;
+    padding-left: 15px;
 }

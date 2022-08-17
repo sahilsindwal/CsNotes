@@ -16,14 +16,7 @@
 
     }
 
-    .java,
-    .uml,
-    .linux,
-    .dbms,
-    .cd,
-    .cn,
-    .toc,
-    .os {
+    .Course_btn {
         margin-bottom: 50px;
     }
 
@@ -44,7 +37,8 @@
         display: none;
     }
 
-    #open_menu, #close_menu {
+    #open_menu,
+    #close_menu {
 
         display: block;
     }
@@ -59,7 +53,7 @@
         background-color: antiquewhite;
 
     }
-   
+
 
     .java_menu1 ul {
         text-align: center;
@@ -112,9 +106,10 @@
     #check:checked~label #close_menu {
         left: 92%;
     }
-    #check:checked~ .java_menu1 {
+
+    #check:checked~.java_menu1 {
         position: relative;
-    
+
     }
 
 
@@ -125,9 +120,13 @@
 /************Specifying Print Area****/
 
 @media print {
-  .java_menu, .java_menu1, footer, nav ul{
 
-    display: none;
-  }
-     
+    .java_menu,
+    .java_menu1,
+    footer,
+    nav ul {
+
+        display: none;
+    }
+
 }

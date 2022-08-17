@@ -111,66 +111,31 @@
         </div>
         <div class="java_notes">
             <div>
-                <h2>Three Schema Architecture</h2>
+                <h2>Data independence</h2>
                 <p>
-                    The three schema architecture is also called ANSI/SPARC architecture or three-level architecture. This framework is used to describe the structure of a specific database system. The three schema architecture is also used to separate the user applications and physical database. The three schema architecture contains three-levels. It breaks the database down into three different categories.
-                </p>
-                <img src="../dbms src/dbms-three-schema-architecture.png" alt="">
-                <p>
-                    The main objective of three level architecture is to enable multiple users to access the same data with a personalized view while storing the underlying data only once. Thus it separates the user's view from the physical structure of the database. This separation is desirable for the following reasons:
+                    The ability to use the database without knowing the representation details is called data independence. It can be explained using the three level schema architecture. We can also define it as the capacity to change the schema at one levle of database system in such a way that, the schema at next level needs not be changed. The reasons for data independence are as follow:
                     <ul>
-                        <li>Different users need different views of the same data.</li>
-                        <li>The approach in which a particular user needs to see the data may change over time.</li>
-                        <li>All users should be able to access the same data according to their requirements.</li>
+                        <li>To allow the DBA to make changes in the content, location, representation and organization of a database without causing reporogramming of application programs which use the database.</li>
+                        <li>To allow the supplier of data processing equipment and software to introduction new technologies without causing reprogramming of the customer’s application.</li>
+                        <li>To simplify application program development in particular, to facilitate the development of programs for interactive data base processing.</li>
                     </ul>
                 </p>
-                <h2>1) The Internal Level</h2>
-                <p>
-                    It is the one closest to physical storage. The internal level has an internal schema which describes the physical storage structure of the database. It is also known as physical schema. It uses the physical data model. It is used to define that how the data will be stored in a block. The following aspects are considered at this level:
-                    <ul>
-                        <li>Storage space allocation for data</li>
-                        <li>record description for storage with stored sizes for data items.</li>
-                        <li>Data compression and encryption techniques.</li>
-                        <li>Optimization of the internal structures.</li>
-                    </ul>
-                </p>
-                <h2>2) Conceputal Level</h2>
-                <p>
-                    This level is the representation of the entire contents of data base. It  is defined by conceputal schema which includes definations of each of the various types of data or the various types of conceputal record. It hides the details of physical storage structures and components on describing entities, data types, relationship, user operations and constraints. It create many external views, each consisting more or less abstract representation of some portion of data base and there will be a single conceptual veiw. It is also known as logical level.
-                    This level is concenred with following activities:
-                    <ul>
-                        <li>all entities, their attributes and their relationship.</li>
-                        <li>Constraints on the data.</li>
-                        <li>Security and integrity rules.</li>
-                        <li>Semantic information about the data.</li>
-                    </ul>
-                </p>
-                <h2>3) External Level</h2>
-                <p>
-                    This level is one closed to the users. This level is concenred with the way in which the data is viewed by individual users. At external level, the dbms presents each user with a shared single view or schema of the data. There are many view at this level, and each view is representation of the total database. A view allow user to access the portion of database from them. It is defined by external schema  which consist basiclly of definations of each of the various types record found n the external view.
-                </p>
-                <h2>Advantages of three level architecture</h2>
+                <h2>Types of Data Independence</h2>
                 <p>
                     <ul>
-                        <li>Each user is able to access the same data but have a different customized view of the data as per their own needs.</li>
-                        <li>A user can change his view and this change doesn’t affect other user’s.</li>
-                        <li>User’s interaction wit database is independent of physical data storage organization.</li>
+                        <li>Logical Independence</li>
+                        <li>Physical Independence</li>
                     </ul>
                 </p>
-                <h2>Mapping Between Views</h2>
+                <h2>Logical Independence</h2>
                 <p>
-                    The three levels of DBMS architecture don't exist independently of each other. There must be correspondence between the three levels i.e. how they actually correspond with each other. DBMS is responsible for correspondence between the three types of schema. This correspondence is called Mapping. There are basically two types of mapping in the database architecture:
-                    <ul>
-                        <li>Conceptual/ Internal Mapping</li>
-                        <li>Conceptual/ Internal Mapping</li>
-                    </ul>
+                    It means that the overall logical structure of data may be changed without changing the application programs. Logical data independence refers characteristic of being able to change the conceptual schema without having to change the external schema. Logical data independence is used to separate the external level from the conceptual view. If we do any changes in the conceptual view of the data, then the user view of the data would not be affected. Logical data independence occurs at the user interface level.
                 </p>
+                <h2>Physical Independence</h2>
                 <p>
-                    <b>Conceptual/ Internal Mapping</b> The Conceptual/ Internal Mapping lies between the conceptual level and the internal level. Its role is to define the correspondence between the records and fields of the conceptual level and files and data structures of the internal level.
+                    Physical data independence can be defined as the capacity to change the internal schema without having to change the conceptual schema. If we do any changes in the storage size of the database system server, then the Conceptual structure of the database will not be affected. Physical data independence is used to separate conceptual levels from the internal levels.Physical data independence occurs at the logical interface level.
                 </p>
-                <p>
-                    <b>External/ Conceptual Mapping:</b> The external/Conceptual Mapping lies between the external level and the Conceptual level. Its role is to define the correspondence between a particular external and the conceptual view.
-                </p>
+                <img src="../dbms src/dbms-data-independence.png" alt="">
             </div>
 
             <div class="jump_buttons_updated">

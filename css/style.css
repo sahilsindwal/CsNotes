@@ -186,25 +186,10 @@ footer {
 
 .shear_maintainer {
     margin-top: 3rem;
+    padding-bottom: 0.6rem;
     display: flex;
     justify-content: space-between;
 
-
-}
-
-.mlogo {
-    max-width: 30%;
-    filter: invert(100%);
-}
-
-.maintainer {
-    text-align: center;
-}
-
-.maintainer h3 {
-    font-size: 0.8rem;
-    font-family: 'Fasthand', cursive;
-    color: rgb(204, 71, 216);
 
 }
 
@@ -217,4 +202,33 @@ footer {
 
 .shear i {
     padding-left: 15px;
+}
+
+footer i:hover {
+    scale: 170%;
+    color: rgb(221, 85, 85);
+    transition: 0.5s;
+}
+
+.m-logo {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.m-logo img {
+
+    margin: 3px;
+    max-width: 35px;
+
+}
+
+.cs {
+    margin-right: 20px;
+}
+
+.m-logo img:hover {
+    scale: 170%;
+    transition: 0.5s;
 }

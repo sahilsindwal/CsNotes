@@ -111,31 +111,67 @@
         </div>
         <div class="java_notes">
             <div>
-                <h2>Data independence</h2>
+                <h2>ER-Diagram</h2>
                 <p>
-                    The ability to use the database without knowing the representation details is called data independence. It can be explained using the three level schema architecture. We can also define it as the capacity to change the schema at one levle of database system in such a way that, the schema at next level needs not be changed. The reasons for data independence are as follow:
+                    E-R model stands for an entity-relationship model. It is conceptual data model that views the real world as entites and relationship. The basic function of E-R model is to represent the data objects diagrammatically. There are different conventions to represent entity, attributes and relationship in E-R model. For example, Suppose we design a school database. In this database, the student will be an entity with attributes like address, name, id, age, etc. The address can be another entity with attributes like city, street name, pin code, etc and there will be a relationship between them.
+                </p>
+                <img src="../dbms src/dbms-er-model-concept.png" alt="">
+                <p>The basic components of E-R diagram:</p>
+                <img src="../dbms src/dbms-er-model-concept-diagram.png" alt="">
+                <h3>Entity</h3>
+                <p>
+                    An entity may be any object, class, person or place. In the ER diagram, an entity can be represented as rectangles. Consider an organization as an example- manager, product, employee, department etc. can be taken as an entity.
+                </p>
+                <img src="../dbms src/dbms-er-model-concept2.png" alt="">
+                <p>
                     <ul>
-                        <li>To allow the DBA to make changes in the content, location, representation and organization of a database without causing reporogramming of application programs which use the database.</li>
-                        <li>To allow the supplier of data processing equipment and software to introduction new technologies without causing reprogramming of the customer’s application.</li>
-                        <li>To simplify application program development in particular, to facilitate the development of programs for interactive data base processing.</li>
+                        <li><b>Weak Entity: </b>An entity that depends on another entity called a weak entity. The weak entity doesn't contain any key attribute of its own. The weak entity is represented by a double rectangle.</li>
                     </ul>
                 </p>
-                <h2>Types of Data Independence</h2>
+                <img src="../dbms src/dbms-er-model-concept3.png" alt="">
+                <h3>2. Attributes</h3>
                 <p>
-                    <ul>
-                        <li>Logical Independence</li>
-                        <li>Physical Independence</li>
-                    </ul>
+                    The attribute is used to describe the property of an entity. Eclipse is used to represent an attribute. For example, id, age, contact number, name, etc. can be attributes of a student.
                 </p>
-                <h2>Logical Independence</h2>
+                <img src="../dbms src/dbms-er-model-concept4.png" alt="">
                 <p>
-                    It means that the overall logical structure of data may be changed without changing the application programs. Logical data independence refers characteristic of being able to change the conceptual schema without having to change the external schema. Logical data independence is used to separate the external level from the conceptual view. If we do any changes in the conceptual view of the data, then the user view of the data would not be affected. Logical data independence occurs at the user interface level.
+                    <b>a. Key Attributes:</b> The key attribute is used to represent the main characteristics of an entity. It represents a primary key. The key attribute is represented by an ellipse with the text underlined. <br>
+                    <img src="../dbms src/dbms-er-model-concept5.png" alt="">
                 </p>
-                <h2>Physical Independence</h2>
                 <p>
-                    Physical data independence can be defined as the capacity to change the internal schema without having to change the conceptual schema. If we do any changes in the storage size of the database system server, then the Conceptual structure of the database will not be affected. Physical data independence is used to separate conceptual levels from the internal levels.Physical data independence occurs at the logical interface level.
+                    <b>b. Composite Attributes</b> An attribute that composed of many other attributes is known as a composite attribute. The composite attribute is represented by an ellipse, and those ellipses are connected with an ellipse. <br>
+                    <img src="../dbms src/dbms-er-model-concept6.png" alt="">
                 </p>
-                <img src="../dbms src/dbms-data-independence.png" alt="">
+                <p>
+                    <b>c. Multivalued Attributes</b> An attribute can have more than one value. These attributes are known as a multivalued attribute. The double oval is used to represent multivalued attribute. For example, a student can have more than one phone number. <br>
+                    <img src="../dbms src/dbms-er-model-concept7.png" alt="">
+                </p>
+                <p>
+                    <b>d. Derived Attribute</b> An attribute that can be derived from other attribute is known as a derived attribute. It can be represented by a dashed ellipse. For example, A person's age changes over time and can be derived from another attribute like Date of birth. <br>
+                    <img src="../dbms src/dbms-er-model-concept8.png" alt="">
+                </p>
+                <h3>3. Relationship</h3>
+                <p>
+                    A relationship is used to describe the relation between entities. Diamond or rhombus is used to represent the relationship. <br>
+                    <img src="../dbms src/dbms-er-model-concept9.png" alt="">
+                </p>
+                <h3>Types of relationship are as follows</h3>
+                <p>
+                    <b>a. One-to-One Relationship</b> When only one instance of an entity is associated with the relationship, then it is known as one to one relationship. For example, A female can marry to one male, and a male can marry to one female. <br>
+                    <img src="../dbms src/dbms-er-model-concept10.png" alt="">
+                </p>
+                <p>
+                    <b>b. One-to-many relationship</b> When only one instance of the entity on the left, and more than one instance of an entity on the right associates with the relationship then this is known as a one-to-many relationship.For example, Scientist can invent many inventions, but the invention is done by the only specific scientist. <br>
+                    <img src="../dbms src/dbms-er-model-concept11.png" alt="">
+                </p>
+                <p>
+                    <b>c. Many-to-one relationship</b> When more than one instance of the entity on the left, and only one instance of an entity on the right associates with the relationship then it is known as a many-to-one relationship. For example, Student enrolls for only one course, but a course can have many students. <br>
+                    <img src="../dbms src/dbms-er-model-concept12.png" alt="">
+                </p>
+                <p>
+                    <b>d. Many-to-many relationship</b> When more than one instance of the entity on the left, and more than one instance of an entity on the right associates with the relationship then it is known as a many-to-many relationship. For example, Employee can assign by many projects and project can have many employees. <br>
+                    <img src="../dbms src/dbms-er-model-concept13.png" alt="">
+                </p>
             </div>
 
             <div class="jump_buttons_updated">

@@ -9,9 +9,16 @@
         padding: 0px 10px;
     }
 
-    .coursebook {
+    .ico:hover{
+        scale: 150%;
+        color: rgb(221, 85, 85);
+        transition: 0.5s;
+    }
 
+    .coursebook {
+       margin: auto;
         display: block;
+        max-width: 90%;
         height: 670px;
 
     }

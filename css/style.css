@@ -224,11 +224,24 @@ footer i:hover {
 
 }
 
-.cs {
-    margin-right: 20px;
-}
 
 .m-logo img:hover {
     scale: 170%;
     transition: 0.5s;
+}
+
+
+/* copyright & designed heading */
+
+.ms {
+    color: rgb(221, 85, 85);
+    transition: 0.5s;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.copyRight {
+    color: rgb(221, 85, 85);
+    text-align: center;
+    
 }

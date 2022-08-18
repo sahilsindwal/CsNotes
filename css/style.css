@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-     Background-color:#fef2f2;
+    Background-color: #fef2f2;
 }
 
 .notes {
@@ -128,66 +128,23 @@ h1 {
     font-size: 5rem;
 }
 
-.java,
-.uml {
+.Course_btn {
     text-align: center;
     animation: mymove 1000s infinite;
     transition: transform 1s;
     border-radius: 15px;
 }
 
-.java:hover,
-.uml:hover {
+.Course_btn:hover {
     animation: mymove1 5s infinite;
     transform: scale(1.3);
 }
 
-.java a, .linux a, .cd a, .toc a {
+.Course_btn a {
     text-decoration: none;
     color: black;
 }
 
-.linux,
-.dbms {
-    text-align: center;
-    animation: mymove 1000s infinite;
-    transition: transform 1s;
-    border-radius: 15px;
-}
-
-.linux:hover,
-.dbms:hover {
-    animation: mymove1 5s infinite;
-    transform: scale(1.3);
-}
-
-.cd,
-.cn {
-    text-align: center;
-    animation: mymove 1000s infinite;
-    transition: transform 1s;
-    border-radius: 15px;
-}
-
-.cd:hover,
-.cn:hover {
-    animation: mymove1 5s infinite;
-    transform: scale(1.3);
-}
-
-.toc,
-.os {
-    text-align: center;
-    animation: mymove 1000s infinite;
-    transition: transform 1s;
-    border-radius: 15px;
-}
-
-.toc:hover,
-.os:hover {
-    animation: mymove1 5s infinite;
-    transform: scale(1.3);
-}
 
 .coursebookimg {
     max-width: 50%;
@@ -200,12 +157,12 @@ h1 {
 
 /************footer work here ***********/
 
-footer{
+footer {
     background-color: rgb(250, 219, 246);
-    
+
 }
 
-.quick h1{
+.quick h1 {
     text-align: center;
     color: rgb(204, 71, 216);
     font-size: 1.4rem;
@@ -227,36 +184,64 @@ footer{
     padding: 6px;
 }
 
-.shear_maintainer{
+.shear_maintainer {
     margin-top: 3rem;
+    padding-bottom: 0.6rem;
     display: flex;
     justify-content: space-between;
 
-    
-}
-
-.mlogo{
-    max-width: 30%;
-    filter: invert(100%);
-}
-
-.maintainer {
-    text-align: center;
-}
-
-.maintainer h3 {
-    font-size: 0.8rem;
-    font-family: 'Fasthand', cursive;
-    color:  rgb(204, 71, 216);
 
 }
+
 .shear {
-  display: flex;
-  align-items: center;
-  padding: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
 
 }
 
 .shear i {
     padding-left: 15px;
+}
+
+footer i:hover {
+    scale: 170%;
+    color: rgb(221, 85, 85);
+    transition: 0.5s;
+}
+
+.m-logo {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.m-logo img {
+
+    margin: 3px;
+    max-width: 35px;
+
+}
+
+
+.m-logo img:hover {
+    scale: 170%;
+    transition: 0.5s;
+}
+
+
+/* copyright & designed heading */
+
+.ms {
+    color: rgb(221, 85, 85);
+    transition: 0.5s;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.copyRight {
+    color: rgb(221, 85, 85);
+    text-align: center;
+    
 }

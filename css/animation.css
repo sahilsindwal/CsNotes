@@ -6,6 +6,22 @@
 }
 @keyframes mymove1 {
     15% { box-shadow: 1vw 2vw 3vw rgb(82, 109, 168);
+       margin-bottom: 2rem;
+       
     
+    }
+}
+
+/* Animation for auto text types */
+
+@keyframes text {
+
+    0%{ 
+        width: 0ch;
+    }
+
+    50% {
+
+        width: 13ch;
     }
 }

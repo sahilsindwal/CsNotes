@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Independence</title>
+    <title>Relational Model</title>
     <!-- Boxicons CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
@@ -40,17 +40,17 @@
     <div class="java_menu1">
         <ul>
             <li><a href="dbms.html">What is Data base ?</a> </li>
-                <li><a href="typesofdatabase.html">Types of Database</a> </li>
-                <li><a href="architecture.html">DBMS Architecture</a> </li>
-                <li><a href="three_schema_architecture.html">Three schema Architecture
-                </a> </li>
-                <li><a href="data_independence.html">Data independence</a></li>
-                <li><a href="er_diagram.html">ER-diagram</a> </li>
-                <li><a href="design_issues.html">Design Issues</a> </li>
-                <li><a href="relational_model.html">Relational Model</a> </li>
-                <li><a href="model_constraints.html">Relational Model Constraints</a> </li>
-                <li><a href="eer_model.html">EER-Model</a> </li>
-                <li><a href="dbms_generalization.html">Generalization and Specialization</a> </li>
+            <li><a href="typesofdatabase.html">Types of Database</a> </li>
+            <li><a href="architecture.html">DBMS Architecture</a> </li>
+            <li><a href="three_schema_architecture.html">Three schema Architecture
+            </a> </li>
+            <li><a href="data_independence.html">Data independence</a></li>
+            <li><a href="er_diagram.html">ER-diagram</a> </li>
+            <li><a href="design_issues.html">Design Issues</a> </li>
+            <li><a href="relational_model.html">Relational Model</a> </li>
+            <li><a href="model_constraints.html">Relational Model Constraints</a> </li>
+            <li><a href="eer_model.html">EER-Model</a> </li>
+            <li><a href="dbms_generalization.html">Generalization and Specialization</a> </li>
 
 
         </ul>
@@ -72,37 +72,52 @@
                 <li><a href="model_constraints.html">Relational Model Constraints</a> </li>
                 <li><a href="eer_model.html">EER-Model</a> </li>
                 <li><a href="dbms_generalization.html">Generalization and Specialization</a> </li>
+                
 
 
             </ul>
         </div>
         <div class="java_notes">
             <div>
-                <h2>Data independence</h2>
+                <h2>Relational Model</h2>
                 <p>
-                    The ability to use the database without knowing the representation details is called data independence. It can be explained using the three level schema architecture. We can also define it as the capacity to change the schema at one levle of database system in such a way that, the schema at next level needs not be changed. The reasons for data independence are as follow:
-                    <ul>
-                        <li>To allow the DBA to make changes in the content, location, representation and organization of a database without causing reporogramming of application programs which use the database.</li>
-                        <li>To allow the supplier of data processing equipment and software to introduction new technologies without causing reprogramming of the customer’s application.</li>
-                        <li>To simplify application program development in particular, to facilitate the development of programs for interactive data base processing.</li>
-                    </ul>
+                    This model is based on the concept of a relaiton, which is physically represented as a table. In this model, tables are used to hold information about the objects to be represented in the data base. A relation is represented as two-dimensional table in which the rows of the table correspond to individuals records and he cloumns corresponds to attributes. Each row is called tuples and each column is called attributes.
+                    Example: STUDENT Relation
                 </p>
-                <h2>Types of Data Independence</h2>
+                <img src="../dbms src/relation1.png" alt="">
                 <p>
                     <ul>
-                        <li>Logical Independence</li>
-                        <li>Physical Independence</li>
+                        <li>In the given table, NAME, ROLL_NO, PHONE_NO, ADDRESS, and AGE are the attributes.</li>
+                        <li>The instance of schema STUDENT has 5 tuples.</li>
+                        <li>t3 = <Laxman, 33289, 8583287182, Gurugram, 20></Laxman></li>
                     </ul>
                 </p>
-                <h2>Logical Independence</h2>
+                <h3>Properties of Relations</h3>
                 <p>
-                    It means that the overall logical structure of data may be changed without changing the application programs. Logical data independence refers characteristic of being able to change the conceptual schema without having to change the external schema. Logical data independence is used to separate the external level from the conceptual view. If we do any changes in the conceptual view of the data, then the user view of the data would not be affected. Logical data independence occurs at the user interface level.
+                    <ul>
+                        <li>Name of the relation is distinct from all other relations.</li>
+                        <li>Each relation cell contains exactly one atomic (single) value</li>
+                        <li>Each attribute contains a distinct name</li>
+                        <li>Attribute domain has no significance</li>
+                        <li>tuple has no duplicate value</li>
+                        <li>Order of tuple can have a different sequence</li>
+                    </ul>
                 </p>
-                <h2>Physical Independence</h2>
                 <p>
-                    Physical data independence can be defined as the capacity to change the internal schema without having to change the conceptual schema. If we do any changes in the storage size of the database system server, then the Conceptual structure of the database will not be affected. Physical data independence is used to separate conceptual levels from the internal levels.Physical data independence occurs at the logical interface level.
+                    <b>Domain: </b>It contains a set of atomic values that an attribute can take.
                 </p>
-                <img src="../dbms src/dbms-data-independence.png" alt="">
+                <p>
+                    <b>Attribute: </b>It contains the name of a column in a particular table. Each attribute Ai must have a domain, dom(Ai)
+                </p>
+                <p>
+                    <b>Relational instance: </b>In the relational database system, the relational instance is represented by a finite set of tuples. Relation instances do not have duplicate tuples.
+                </p>
+                <p>
+                    <b>Relational schema: </b>A relational schema contains the name of the relation and name of all columns or attributes.
+                </p>
+                <p>
+                    <b>Relational key: </b>In the relational key, each row has one or more attributes. It can identify the row in the relation uniquely.
+                </p>
             </div>
 
             <div class="jump_buttons_updated">
@@ -115,8 +130,8 @@
                         window.print();
                     }
                 </script>
-                <a href="three_schema_architecture.html">Pre</a>
-                <a href="er_diagram.html">Next</a>
+                <a href="relational_model.html">pre</a>
+                <a href="model_constraints.html">Next</a>
             </div>
         </div>
     </div>
@@ -160,7 +175,5 @@
 
 
     </footer>
-    </body>
-    
-
+</body>
 </html>

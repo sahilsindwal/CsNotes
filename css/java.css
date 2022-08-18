@@ -12,7 +12,8 @@
 .java_menu{
     width: 22%;
     font-size: 1.3rem;
-    background-color: antiquewhite;
+    background-color: rgb(250, 219, 246);
+    border-bottom: 3px solid rgb(238, 177, 230);
 
 }
 
@@ -58,7 +59,9 @@
     display: none;
     width: 22%;
     font-size: 1.3rem;
-    background-color: antiquewhite;
+    background-color: rgb(250, 219, 246);
+    box-shadow: 1vw 2vw 3vw rgb(221, 134, 221);
+   
 
 }
 
@@ -128,7 +131,9 @@
     justify-content: center;
     justify-items: center;
     max-width: 100%;
-    margin-bottom: 2rem; ;
+    margin-bottom: 2rem;
+    
+    
 }
 
 .jump_buttons_updated  a {
@@ -140,6 +145,7 @@
     background-color: rgb(230, 111, 214);
     border-radius: 10px;
     text-decoration: none;
+    box-shadow: 1vw 1vw 1vw rgb(221, 134, 221);
 }
 .jump_buttons_updated  a:hover{
     background-color: rgb(177, 162, 233);

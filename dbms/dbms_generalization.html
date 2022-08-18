@@ -77,7 +77,26 @@
         </div>
         <div class="java_notes">
             <div>
-                under construction
+                <h2>Generalization, Specialization and Aggregation in ER Model
+                </h2>
+                <h2>Generalization</h2>
+                <p>
+                    Generalization is the process of extracting common properties from a set of entities and create a generalized entity from it. It is a bottom-up approach in which two or more entities can be generalized to a higher level entity if they have some attributes in common. For Example, STUDENT and FACULTY can be generalized to a higher level entity called PERSON as shown in Figure 1. In this case, common attributes like P_NAME, P_ADD become part of higher entity (PERSON) and specialized attributes like S_FEE become part of specialized entity (STUDENT). 
+                </p>
+                <img src="../dbms src/eer2.png" alt="">
+                <h2>Specialization</h2>
+                <p>
+                    In specialization, an entity is divided into sub-entities based on their characteristics. It is a top-down approach where higher level entity is specialized into two or more lower level entities. For Example, EMPLOYEE entity in an Employee management system can be specialized into DEVELOPER, TESTER etc. as shown in Figure 2. In this case, common attributes like E_NAME, E_SAL etc. become part of higher entity (EMPLOYEE) and specialized attributes like TES_TYPE become part of specialized entity (TESTER). 
+                </p>
+                <img src="../dbms src/eer3.png" alt="">
+                <h2>Aggregation</h2>
+                <p>
+                    An ER diagram is not capable of representing relationship between an entity and a relationship which may be required in some scenarios. In those cases, a relationship with its corresponding entities is aggregated into a higher level entity. Aggregation is an abstraction through which we can represent relationships as higher level entity sets.
+                </p>
+                <p>
+                    For Example, Employee working for a project may require some machinery. So, REQUIRE relationship is needed between relationship WORKS_FOR and entity MACHINERY. Using aggregation, WORKS_FOR relationship with its entities EMPLOYEE and PROJECT is aggregated into single entity and relationship REQUIRE is created between aggregated entity and MACHINERY. 
+                </p>
+                <img src="../dbms src/eer4.png" alt="">
             </div>
 
             <div class="jump_buttons_updated">

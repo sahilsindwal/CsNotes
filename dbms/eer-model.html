@@ -43,7 +43,7 @@
             <li><a href="typesofdatabase.html">Types of Database</a> </li>
             <li><a href="architecture.html">DBMS Architecture</a> </li>
             <li><a href="three_schema_architecture.html">Three schema Architecture
-            </a> </li>
+                </a> </li>
             <li><a href="data_independence.html">Data independence</a></li>
             <li><a href="er_diagram.html">ER-diagram</a> </li>
             <li><a href="design_issues.html">Design Issues</a> </li>
@@ -63,57 +63,80 @@
                 <li><a href="typesofdatabase.html">Types of Database</a> </li>
                 <li><a href="architecture.html">DBMS Architecture</a> </li>
                 <li><a href="three_schema_architecture.html">Three schema Architecture
-                </a> </li>
+                    </a> </li>
                 <li><a href="data_independence.html">Data independence</a></li>
                 <li><a href="er_diagram.html">ER-diagram</a> </li>
                 <li><a href="design_issues.html">Design Issues</a> </li>
                 <li><a href="relational_model.html">Relational Model</a> </li>
                 <li><a href="model_constraints.html">Relational Model Constraints</a> </li>
                 <li><a href="eer_model.html">EER-Model</a> </li>
-                
+
 
 
             </ul>
         </div>
         <div class="java_notes">
-            <h2>Extened or Enhanced Entity-relationship</h2>
-            <p>
-                Today the complexity of the data is increasing so it becomes more and more difficult to use the traditional ER model for database modeling. To reduce this complexity of modeling we have to make improvements or enhancements to the existing ER model to make it able to handle the complex application in a better way. 
-            </p>
-            <p>
-                EER diagrams are advanced database diagrams very similar to regular ER diagrams which represent requirements and complexities of complex databases. It is a diagrammatic technique for displaying the Sub Class and Super Class; Specialization and Generalization; Union or Category; Aggregation etc.
-            </p>
-            <h3>Inheritance</h3>
-            <p>
-                Inheritance is basically the process of basing a class on another class i.e to build a class on a existing  class. The new class contains all the features and functionalities of the old class in addition to its own. The class which is newly created is known as the subclass or child class and the original class is the parent class or the superclass.
-            </p>
-            <h2>Subclass and Super class:</h2>
-            <p>
-                A superclass is the class from which many subclasses can be created. The subclasses inherit the characteristics of a superclass. The superclass is also known as the parent class or base class.
-            </p>
-            <p>
-                For example − consider Shape super class and triangle, square, and circle are subclass.
-            </p>
-            <img src="../dbms src/eer.png" alt="">
-            <p>
-                A subclass is a class derived from the superclass. It inherits the properties of the superclass and also contains attributes of its own. For ex-
-            </p>
-            <img src="../dbms src/eer1.png" alt="">
-            <p>
-                Car, Truck and Motorcycle are all subclasses of the superclass Vehicle. They all inherit common attributes from vehicle such as speed, colour etc. while they have different attributes also i.e Number of wheels in Car is 4 while in Motorcycle is 2.
-            </p>
-            <h2>Constraints</h2>
-            <p>
-                There are two types of constraints on the sub-class relationship.
-            </p>
-            <h3>1) Total or Partial: </h3>
-            <p>
-                A sub-class relationship is total if every super-class entity is to be associated with some sub-class entity, otherwise partial. Sub-class “job type based employee category” is partial sub-classing – not necessary every employee is one of (secretary, engineer, and technician), i.e. union of these three types is a proper subset of all employees. Whereas other sub-classing “Salaried Employee AND Hourly Employee” is total; the union of entities from sub-classes is equal to the total employee set, i.e. every employee necessarily has to be one of them.
-            </p>
-            <h3>2) Overlapped or Disjoint:</h3>
-            <p>
-                If an entity from super-set can be related (can occur) in multiple sub-class sets, then it is overlapped sub-classing, otherwise disjoint. Both the examples: job-type based and salaries/hourly employee sub-classing are disjoint.
-            </p>
+            <div>
+                <h2>Extened or Enhanced Entity-relationship</h2>
+                <p>
+                    Today the complexity of the data is increasing so it becomes more and more difficult to use the
+                    traditional ER model for database modeling. To reduce this complexity of modeling we have to make
+                    improvements or enhancements to the existing ER model to make it able to handle the complex
+                    application in a better way.
+                </p>
+                <p>
+                    EER diagrams are advanced database diagrams very similar to regular ER diagrams which represent
+                    requirements and complexities of complex databases. It is a diagrammatic technique for displaying
+                    the Sub Class and Super Class; Specialization and Generalization; Union or Category; Aggregation
+                    etc.
+                </p>
+                <h3>Inheritance</h3>
+                <p>
+                    Inheritance is basically the process of basing a class on another class i.e to build a class on a
+                    existing class. The new class contains all the features and functionalities of the old class in
+                    addition to its own. The class which is newly created is known as the subclass or child class and
+                    the original class is the parent class or the superclass.
+                </p>
+                <h2>Subclass and Super class:</h2>
+                <p>
+                    A superclass is the class from which many subclasses can be created. The subclasses inherit the
+                    characteristics of a superclass. The superclass is also known as the parent class or base class.
+                </p>
+                <p>
+                    For example − consider Shape super class and triangle, square, and circle are subclass.
+                </p>
+                <img src="../dbms src/eer.png" alt="">
+                <p>
+                    A subclass is a class derived from the superclass. It inherits the properties of the superclass and
+                    also contains attributes of its own. For ex-
+                </p>
+                <img src="../dbms src/eer1.png" alt="">
+                <p>
+                    Car, Truck and Motorcycle are all subclasses of the superclass Vehicle. They all inherit common
+                    attributes from vehicle such as speed, colour etc. while they have different attributes also i.e
+                    Number of wheels in Car is 4 while in Motorcycle is 2.
+                </p>
+                <h2>Constraints</h2>
+                <p>
+                    There are two types of constraints on the sub-class relationship.
+                </p>
+                <h3>1) Total or Partial: </h3>
+                <p>
+                    A sub-class relationship is total if every super-class entity is to be associated with some
+                    sub-class entity, otherwise partial. Sub-class “job type based employee category” is partial
+                    sub-classing – not necessary every employee is one of (secretary, engineer, and technician), i.e.
+                    union of these three types is a proper subset of all employees. Whereas other sub-classing “Salaried
+                    Employee AND Hourly Employee” is total; the union of entities from sub-classes is equal to the total
+                    employee set, i.e. every employee necessarily has to be one of them.
+                </p>
+                <h3>2) Overlapped or Disjoint:</h3>
+                <p>
+                    If an entity from super-set can be related (can occur) in multiple sub-class sets, then it is
+                    overlapped sub-classing, otherwise disjoint. Both the examples: job-type based and salaries/hourly
+                    employee sub-classing are disjoint.
+                </p>
+            </div>
+
 
             <div class="jump_buttons_updated">
 
@@ -152,8 +175,10 @@
             <div class="ms">
 
                 <div class="m-logo">
-                    <a href="https://github.com/Meenaji21" target="_blank"><img src="../src/footer/meena.png" alt="meena"></a>
-                    <a class="cs" href="https://github.com/sahil-sindwal" target="_blank"><img src="../src/footer/cs.png" alt="cs"></a>
+                    <a href="https://github.com/Meenaji21" target="_blank"><img src="../src/footer/meena.png"
+                            alt="meena"></a>
+                    <a class="cs" href="https://github.com/sahil-sindwal" target="_blank"><img
+                            src="../src/footer/cs.png" alt="cs"></a>
                 </div>
 
                 <div class="dh">
@@ -171,4 +196,5 @@
 
     </footer>
 </body>
+
 </html>

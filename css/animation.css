@@ -6,6 +6,8 @@
 }
 @keyframes mymove1 {
     15% { box-shadow: 1vw 2vw 3vw rgb(82, 109, 168);
+       margin-bottom: 2rem;
+       
     
     }
 }

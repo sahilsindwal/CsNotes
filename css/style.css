@@ -131,7 +131,7 @@ h1 {
 .Course_btn {
     text-align: center;
     animation: mymove 1000s infinite;
-    transition: transform 1s;
+    transition: transform 0.5s;
     border-radius: 15px;
 }
 

@@ -11,3 +11,17 @@
     
     }
 }
+
+/* Animation for auto text types */
+
+@keyframes text {
+
+    0%{ 
+        width: 0ch;
+    }
+
+    50% {
+
+        width: 13ch;
+    }
+}

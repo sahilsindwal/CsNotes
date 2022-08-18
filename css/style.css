@@ -8,7 +8,7 @@
 }
 
 body {
-    background: rgb(244, 228, 255);
+    Background-color: #fef2f2;
 }
 
 .notes {
@@ -66,20 +66,38 @@ nav ul li {
 
 }
 
+.vatan {
+     max-width: 80px;
+    filter: invert(100%);
+}
+
 .main {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(250, 219, 246);
 }
 
-.cross {
-    font-size: 10rem;
-    background-color: rgb(247, 189, 239);
-    border-radius: 30px;
-    color: red;
+
+/* auto text effect */
+
+.autoEffect{
+    display: flex;
+}
+
+.auto {
+    margin-left: 5px;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 6s  infinite alternate;
+    border-right: 2px solid red;
 
 }
 
-h1 {
+
+.redHead {
     color: red;
 }
 

@@ -12,7 +12,8 @@
 .java_menu{
     width: 22%;
     font-size: 1.3rem;
-    background-color: antiquewhite;
+    background-color: rgb(250, 219, 246);
+    border-bottom: 3px solid rgb(238, 177, 230);
 
 }
 
@@ -58,7 +59,9 @@
     display: none;
     width: 22%;
     font-size: 1.3rem;
-    background-color: antiquewhite;
+    background-color: rgb(250, 219, 246);
+    border-bottom: 3px solid rgb(238, 177, 230);
+   
 
 }
 

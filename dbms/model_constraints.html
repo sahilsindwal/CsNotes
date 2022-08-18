@@ -76,7 +76,49 @@
             </ul>
         </div>
         <div class="java_notes">
-            under constructuion
+            <div>
+                <h2>Relational constraints</h2>
+                <p>
+                    Let us discuss the various restrictions on data that can be specified on a  relational database schema in the form of constraints.
+                </p>
+                <h3>1) Domain comstraints: </h3>
+                <p>
+                    It specifies that the value of each attributes X must be atomic value from the domain of X. The data types associated with domains includes integer, character, string, date, time etc. An attributes value must be available in the corresponding domain. For ex-
+                </p>
+                <img src="../dbms src/relation.png" alt="">
+                <p>
+                    In the 3rd row the age of laxman is A which is not allowed because age is integer attributes.
+                </p>
+                <h3>2) Tuple uniqueness constraints:</h3>
+                <p>
+                    Relation is defined as a set of tuples. By defination, all elements of a setv are distinct. Hence, all tuples in a relation must also be distinct. For ex-
+                </p>
+                <img src="../dbms src/relation3.png" alt="">
+                <p>
+                    In this example, the details of first row and third row is same which is not allowed because they have to be distinct.
+                </p>
+                <h3>3) Key constraints:</h3>
+                <p>
+                    Primary key must have unique value in the relation table. For ex-
+                </p>
+                <img src="../dbms src/relation3.png" alt="">
+                <h3>4) Integrity rule1: </h3>
+                <p>
+                    It states that no attributes of a  primary key can have a null value. For ex-
+                </p>
+                <img src="../dbms src/relation4.png" alt="">
+                <p>
+                    In this example, the 3rd row have null value which is not allowed.
+                </p>
+                <h3>5) Integrity rule2: </h3>
+                <p>
+                    It statees that if a foregin key in table A refers to the primary key of table B, then every value of foregin key in table A must be null or be available in table B. For ex- for EMP
+                </p>
+                <img src="../dbms src/relation5.png" alt="">
+                <p>
+                    In this example, DNO is a foregin key in EMP relation. So value of DNO equals to 15 is not allowed in EMP in relation because DNO = 15 is not available in DEPT realtion.
+                </p>
+            </div>
 
             <div class="jump_buttons_updated">
 

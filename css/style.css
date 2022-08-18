@@ -8,7 +8,7 @@
 }
 
 body {
-    background: rgb(244, 228, 255);
+    background: rgb(255, 240, 233);
 }
 
 .notes {
@@ -17,10 +17,12 @@ body {
 }
 
 nav {
-    height: 100px;
-    background: rgb(244, 232, 253);
-    align-items: center;
     padding: 0px 50px 0px 90px;
+    height: 100px;
+    background-color: rgb(250, 219, 246);
+    align-items: center;
+    border-bottom: 3px solid rgb(241, 201, 237);
+    
 }
 
 nav .logo {
@@ -77,6 +79,8 @@ nav ul li {
     justify-content: center;
     align-items: center;
     background-color: rgb(250, 219, 246);
+    border-bottom: 3px solid rgb(241, 201, 237);
+    
 }
 
 
@@ -130,7 +134,8 @@ nav ul li {
 /*course book works here *****/
 
 .coursebook {
-    margin-top: 1rem;
+    border-bottom: 3px solid rgb(241, 201, 237);
+    /* border-top: 3px solid rgb(241, 201, 237); */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -147,6 +152,7 @@ nav ul li {
 }
 
 .Course_btn {
+    margin-top: 2rem;
     text-align: center;
     animation: mymove 1000s infinite;
     transition: transform 0.5s;
@@ -176,6 +182,7 @@ nav ul li {
 /************footer work here ***********/
 
 footer {
+    border-top: 3px solid rgb(241, 201, 237);
     background-color: rgb(250, 219, 246);
 
 }
@@ -256,7 +263,9 @@ footer i:hover {
     transition: 0.5s;
     margin-right: 20px;
     text-align: center;
+    
 }
+
 
 .copyRight {
     color: rgb(221, 85, 85);

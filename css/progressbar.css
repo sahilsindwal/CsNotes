@@ -1,16 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
 
 ::-webkit-scrollbar
 {
-    width: 0;
+    width: 0%;
 }
+
 
 #scrollPath{
 
     position: fixed;
     top: 0;
     right: 0;
-    width: 10px;
-    height: 100%;
+    width: 5px;
+    height: 200%;
     background: rgba(255, 255, 255, 0.05);
 
 }
@@ -20,8 +26,9 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 6px;
-    background: linear-gradient(to top, #008aff,#00ffe7);
+    width: 5px;
+    height: 200%;
+    background:  rgb(221, 134, 221);
     animation: animate 5s linear infinite;
 
 }
@@ -30,11 +37,11 @@
 {
     0%, 100% 
     {
-        filter: hue-rotate(0deg);
+        box-shadow: 1vw 2vw 3vw rgb(221, 134, 221);
 
     }
     50%{
-        filter: hue-rotate(360deg);
+        box-shadow: 1vw 2vw 3vw rgb(221, 134, 221);
 
     }
 
@@ -48,7 +55,7 @@
     left: 0;
     width: 10px;
     height: 100%;
-    background: linear-gradient(to top, #008aff,#00ffe7);
+    background:  rgb(221, 134, 221);
     filter: blur(10px);
 
 }
@@ -61,7 +68,8 @@
     left: 0;
     width: 10px;
     height: 100%;
-    background: linear-gradient(to top, #008aff,#00ffe7);
+    background:  rgb(221, 134, 221);
     filter: blur(10px);
 
 }
+

@@ -57,6 +57,12 @@
         background-color: antiquewhite;
 
     }
+    
+::-webkit-scrollbar
+{
+    width: 0%;
+    display: none;
+}
 
 
     .java_menu1 ul {

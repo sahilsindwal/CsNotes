@@ -16,10 +16,10 @@
     }
 
     .coursebook {
-       margin: auto;
+        margin: auto;
         display: block;
         max-width: 90%;
-        height: 670px;
+        height: 100%;
 
     }
 
@@ -58,11 +58,6 @@
 
     }
     
-::-webkit-scrollbar
-{
-    width: 0%;
-    display: none;
-}
 
 
     .java_menu1 ul {

@@ -134,4 +134,29 @@
         display: none;
     }
 
+    /*********footer work ****/
+
+    
+
 }
+
+
+
+@media screen and (max-width:584px) {
+
+    .copy {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .policy {
+        margin-bottom: 0.4rem;
+    }
+
+
+}
+
+
+
+

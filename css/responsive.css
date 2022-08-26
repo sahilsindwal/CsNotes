@@ -16,10 +16,10 @@
     }
 
     .coursebook {
-       margin: auto;
+        margin: auto;
         display: block;
         max-width: 90%;
-        height: 670px;
+        height: 100%;
 
     }
 
@@ -57,6 +57,7 @@
         background-color: antiquewhite;
 
     }
+    
 
 
     .java_menu1 ul {
@@ -133,4 +134,29 @@
         display: none;
     }
 
+    /*********footer work ****/
+
+    
+
 }
+
+
+
+@media screen and (max-width:584px) {
+
+    .copy {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .policy {
+        margin-bottom: 0.4rem;
+    }
+
+
+}
+
+
+
+

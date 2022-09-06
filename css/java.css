@@ -126,6 +126,28 @@
 
 /****************Jump buttons Work here *****/
  
+.jumper{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.jumper a i {
+    
+    font-size: 2.7rem;
+    color: #000;
+    margin-right: 0.7rem;
+    border-radius:50% ;
+    background-color: rgb(230, 111, 214);
+    
+}
+
+.jumper a i:hover {
+    background-color: rgb(177, 162, 233);
+    
+}
+
 .jump_buttons_updated {
     display: flex;
     justify-content: center;

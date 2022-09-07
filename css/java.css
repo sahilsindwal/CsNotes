@@ -135,10 +135,10 @@
 
 .jumper a i {
     
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     color: #000;
     margin-right: 0.7rem;
-    border-radius:50% ;
+    border-radius:50px;
     background-color: rgb(230, 111, 214);
     
 }

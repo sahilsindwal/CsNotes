@@ -109,32 +109,6 @@ nav ul li {
     color: red;
 }
 
-/********************Marquee Work here *****/
-.container {
-    margin-top: 1rem;
-    overflow: hidden;
-    white-space: nowrap;
-    text-align: center;
-    font-family: 'Prompt', sans-serif;
-    font-size: 1.2rem;
-    color: red;
-}
-
-.scrolling {
-    animation: marquee 3s alternate-reverse linear infinite;
-    display: inline-block;
-}
-
-@keyframes marquee {
-    from {
-        transform: translateX(0);
-    }
-
-    to {
-        transform: translateX(-100%);
-    }
-}
-
 /*course book works here *****/
 
 .coursebook {

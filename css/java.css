@@ -10,11 +10,12 @@
 
 
 .java_menu{
-    width: 22%;
+    text-align: center;
+    width: 24%;
     font-size: 1.3rem;
     background-color: rgb(250, 219, 246);
     border-bottom: 3px solid rgb(238, 177, 230);
-
+    
 }
 
 .java_menu ul{
@@ -24,7 +25,7 @@
 
 .java_menu ul li{
     margin-bottom: 5px;
-    padding:5px 0 4px 10px;
+    padding:5px 0 4px 10px;       
 }
 
 .java_menu ul li a {
@@ -42,55 +43,6 @@
     color: rgb(135, 75, 214);
     transition: 0.4s;
 }
-
-
-/*************************duplicate code*********/
-
-#open_menu, #close_menu {
-
-    display: none;
-}
-
-#check{
-    display: none;
-}
-
-.java_menu1{
-    display: none;
-    width: 22%;
-    font-size: 1.3rem;
-    background-color: rgb(250, 219, 246);
-    box-shadow: 1vw 2vw 3vw rgb(221, 134, 221);
-   
-
-}
-
-.java_menu1 ul{
-    margin-top: 2rem;
-    list-style: none;
-}
-
-.java_menu1 ul li{
-    margin-bottom: 5px;
-    padding:5px 0 4px 10px;
-}
-
-.java_menu1 ul li a {
-    font-size: 1rem;
-    text-decoration: none;
-    color: rgb(189, 17, 132);
-}
-
-.java_menu1 ul li a:hover{
-    padding-left: 1rem;
-    font-size: 1.2rem;
-    border-bottom: 2px solid rgb(230, 111, 214);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 5px;
-    color: rgb(135, 75, 214);
-    transition: 0.4s;
-}
-
 
 /*************************duplicate code*********/
 .java_notes{
@@ -126,6 +78,28 @@
 
 /****************Jump buttons Work here *****/
  
+.jumper{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.jumper a i {
+    
+    font-size: 2.4rem;
+    color: #000;
+    margin-right: 0.7rem;
+    border-radius:50px;
+    background-color: rgb(230, 111, 214);
+    
+}
+
+.jumper a i:hover {
+    background-color: rgb(177, 162, 233);
+    
+}
+
 .jump_buttons_updated {
     display: flex;
     justify-content: center;

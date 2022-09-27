@@ -73,7 +73,7 @@
 
     /* Rotate first bar */
     .close .top {
-        transform: translate(0, 10px) rotate(-50deg);
+        transform: translate(0, 10px) rotate(-44deg);
     }
 
     /* Fade out the second bar */
@@ -83,7 +83,7 @@
 
     /* Rotate last bar */
     .close .bottom {
-        transform: translate(0, -10px) rotate(50deg);
+        transform: translate(0, -10px) rotate(44deg);
     }
 
 
@@ -94,7 +94,7 @@
 
 @media print {
 
-    .java_menu,
+    .java_menu, .jump_buttons_updated,
     footer,
     nav ul {
 

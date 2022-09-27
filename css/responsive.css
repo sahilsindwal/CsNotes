@@ -34,11 +34,16 @@
         height: 90%;
 
     }
+    
 
     /********* Work for sidebar menu****/
-
+    .javac{ 
+        flex-direction: column;
+    
+    }
     .java_menu {
         display: none;
+        width: 100%;
     }
 
     .mc {
@@ -46,10 +51,13 @@
     }
 
     .menubar {
+        border-radius: 5px;
         position: absolute;
         z-index: 111;
+        margin-top: 0.1rem;
+        margin-left: 0.1rem;
         display: inline-block;
-
+        box-shadow: 0.2vw 0.2vw 0.7vw 0.2vw rgb(221, 134, 221);
     }
 
     .top,

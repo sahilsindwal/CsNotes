@@ -9,7 +9,7 @@
         padding: 0px 10px;
     }
 
-    .ico:hover{
+    .ico:hover {
         scale: 150%;
         color: rgb(221, 85, 85);
         transition: 0.5s;
@@ -41,82 +41,42 @@
         display: none;
     }
 
-    #open_menu,
-    #close_menu {
-
+    .mc {
         display: block;
     }
 
-
-    .java_menu1 {
-        max-height: 100%;
-        overflow-y: scroll;
-        display: block;
-        width: 100%;
-        font-size: 1.3rem;
-        background-color: antiquewhite;
-
-    }
-    
-
-
-    .java_menu1 ul {
-        text-align: center;
-    }
-
-    .java_menu1 {
+    .menubar {
         position: absolute;
-        left: -1090px;
-        transition: all .5s ease;
+        z-index: 111;
+        display: inline-block;
+
     }
 
+    .top,
+    .mid,
+    .bottom {
+        width: 32px;
+        height: 4px;
+        background-color: rgb(209, 78, 192);
+        margin: 6px 6px;
+        transition: 0.5s;
 
-    #check {
-        display: none;
     }
 
-    label #open_menu,
-    label #close_menu {
-        position: absolute;
-        color: rgb(209, 78, 192);
-        border-radius: 3px;
-        cursor: pointer;
+    /* Rotate first bar */
+    .close .top {
+        transform: translate(0, 10px) rotate(-50deg);
     }
 
-    label #open_menu {
-        font-size: 2rem;
-        padding: 6px 12px;
-        transition: all .7s;
-    }
-
-    label #close_menu {
-        z-index: 1111;
-        left: -195px;
-        font-size: 2rem;
-        color: rgb(209, 78, 192);
-        padding: 4px 9px;
-        transition: all .5s ease;
-    }
-
-    #check:checked~.java_menu1 {
-        left: 0;
-    }
-
-    #check:checked~label #open_menu {
-        left: 250px;
+    /* Fade out the second bar */
+    .close .mid {
         opacity: 0;
-        pointer-events: none;
     }
 
-    #check:checked~label #close_menu {
-        left: 92%;
+    /* Rotate last bar */
+    .close .bottom {
+        transform: translate(0, -10px) rotate(50deg);
     }
-
-    #check:checked~.java_menu1 {
-        position: relative;
-
-    }
-
 
 
 }
@@ -127,7 +87,6 @@
 @media print {
 
     .java_menu,
-    .java_menu1,
     footer,
     nav ul {
 
@@ -136,7 +95,7 @@
 
     /*********footer work ****/
 
-    
+
 
 }
 
@@ -149,14 +108,10 @@
         justify-content: center;
         align-items: center;
     }
-    
+
     .policy {
         margin-bottom: 0.4rem;
     }
 
 
 }
-
-
-
-

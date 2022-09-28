@@ -129,15 +129,16 @@ nav ul li {
 }
 
 .Course_btn {
+    box-shadow: 1vw 2vw 3vw rgb(221, 134, 221);
     margin-top: 2rem;
     text-align: center;
-    animation: mymove 1000s infinite;
-    transition: transform 0.5s;
+    transition: transform 0.6s;
     border-radius: 15px;
 }
 
 .Course_btn:hover {
-    animation: mymove1 5s infinite;
+    
+    box-shadow: 1vw 2vw 3vw rgb(82, 109, 168);
     transform: scale(1.1);
 }
 

@@ -13,7 +13,9 @@
     text-align: center;
     width: 24%;
     font-size: 1.3rem;
-    background-color: rgb(250, 219, 246);
+    background: #FFAFBD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-bottom: 3px solid rgb(238, 177, 230);
     
 }

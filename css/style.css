@@ -8,30 +8,39 @@
 }
 
 body {
-    background: rgb(255, 240, 233);
+    background: #f4f9fa;
 }
 
-.bg{
+.bg {
 
-    background: rgb(244, 228, 255);
+    background: #f4f9fa;
 }
+
 .notes {
-    color: rgb(209, 78, 192);
+    color: rgb(75, 137, 218);
 
 }
 
 nav {
     padding: 0px 50px 0px 90px;
     height: 100px;
-    background-color: rgb(250, 219, 246);
+    background: #ef32d9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89fffd, #ef32d9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     align-items: center;
-    border-bottom: 3px solid rgb(241, 201, 237);
-    
+    /* border-bottom: 3px solid  #b2edf7; */
+    box-shadow: 1px 1px 1px 1px #c3e7ee;
+
 }
 
 nav .logo {
     font-size: 33px;
-    color: rebeccapurple;
+    color: rgb(40, 185, 161);
+    ;
     font-weight: 600;
     text-align: center;
     margin-bottom: 10px;
@@ -63,17 +72,19 @@ nav ul li {
 }
 
 .ss:hover {
-    background: rgb(209, 78, 192);
+    background: rgb(197, 235, 255);
 }
 
 .ico {
-    color: rgb(209, 78, 192);
+    color: #19547b;
+    /* color: #429ef3; */
+    /* fallback for old browsers */
     font-size: 1.8rem;
 
 }
 
 .vatan {
-     max-width: 80px;
+    max-width: 80px;
     filter: invert(100%);
 }
 
@@ -82,24 +93,24 @@ nav ul li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(250, 219, 246);
-    border-bottom: 3px solid rgb(241, 201, 237);
-    
+    background-color: #f4f9fa;
+    box-shadow: 2px 2px 2px 2px rgb(141, 167, 221);
 }
 
 
 /* auto text effect */
 
-.autoEffect{
+.autoEffect {
     display: flex;
 }
 
 .auto {
     margin-left: 5px;
+    padding-bottom: 10px;
     width: 0ch;
     overflow: hidden;
     white-space: nowrap;
-    animation: text 6s  infinite alternate;
+    animation: text 6s infinite alternate;
     border-right: 2px solid red;
 
 }
@@ -112,14 +123,12 @@ nav ul li {
 /*course book works here *****/
 
 .coursebook {
-    border-bottom: 3px solid rgb(241, 201, 237);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background: rgb(244, 228, 255);
     max-width: 100%;
-    height: 300px;
+    margin-bottom: 3rem;
 
 }
 
@@ -129,17 +138,20 @@ nav ul li {
 }
 
 .Course_btn {
-    box-shadow: 1vw 2vw 3vw rgb(221, 134, 221);
+    width: 45%;
+    height: 170px;
     margin-top: 2rem;
+    padding-top: 2rem;
     text-align: center;
     transition: transform 0.6s;
     border-radius: 15px;
+
 }
 
 .Course_btn:hover {
-    
-    box-shadow: 1vw 2vw 3vw rgb(82, 109, 168);
-    transform: scale(1.1);
+    background-color: #e4f6fa;
+    box-shadow: 1vw 1vw 1vw rgb(141, 167, 221);
+    transform: scale(1.01);
 }
 
 .Course_btn a {
@@ -149,25 +161,109 @@ nav ul li {
 
 
 .coursebookimg {
-    max-width: 50%;
+    max-width: 80%;
 }
 
 .course_book_heading {
-    font-size: 0.8rem;
+    font-size: 1rem;
+    /* margin-right: 2rem; */
+    /* border: 2px solid red; */
+    text-align: center;
+
 }
+
+
+.firstcolor {
+    background: #FFAFBD;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.secondcolor {
+    background: #3494E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EC6EAD, #3494E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.thirdcolor {
+    background: #67B26F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.fourthcolor {
+    background: #A770EF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.fifthcolor {
+    background: #ffd89b;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #19547b, #ffd89b);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #19547b, #ffd89b);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.sixcolor {
+    background: #42275a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #734b6d, #42275a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #734b6d, #42275a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.sevencolor {
+    background: #2C3E50;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FD746C, #2C3E50);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FD746C, #2C3E50);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.eightcolor {
+    background: #1D4350;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A43931, #1D4350);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A43931, #1D4350);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 
 
 /************footer work here ***********/
 
 footer {
-    border-top: 3px solid rgb(241, 201, 237);
-    background-color: rgb(250, 219, 246);
-
+    background-color: rgb(48, 46, 48);
 }
 
 .quick h1 {
     text-align: center;
-    color: rgb(204, 71, 216);
+    color: white;
     font-size: 1.4rem;
     padding-top: 1rem;
     margin-bottom: 2rem;
@@ -175,11 +271,11 @@ footer {
 }
 
 .quick ul {
-
     display: flex;
     list-style: none;
     justify-content: center;
     align-items: center;
+
 }
 
 .quick ul li {
@@ -237,43 +333,39 @@ footer i:hover {
 /* copyright & designed heading */
 
 .ms {
-    color: rgb(221, 85, 85);
+    color: rgb(255, 255, 255);
     transition: 0.5s;
     margin-right: 20px;
     text-align: center;
-    
+
 }
 
-.copy{
-    background-color: rgb(248, 201, 242);;
-    border-top: 2px solid rgb(243, 174, 174);
-    box-shadow: 1vw 2vw 3vw 2vw rgb(221, 134, 221);
+.copy {
+    border-top: 2px solid rgb(173, 187, 248);
+    box-shadow: 3px 3px 3px 3px rgb(173, 187, 248);
     padding-top: 1.6rem;
     max-width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
+
 }
 
 .policy {
-    color: rgb(221, 85, 85);
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
 
 
 .copyRight {
-    color: rgb(221, 85, 85);
+    color: rgb(255, 255, 255);
     text-align: center;
     cursor: pointer;
-    
+
 }
 
 .bb {
-   color: rgb(221, 85, 85);
+    color: rgb(255, 255, 255);
     font-size: 1.3rem;
 }
-
-
-

@@ -1,17 +1,3 @@
-/******************* Animation for coursebook items ******/
-@keyframes mymove {
-    0% { box-shadow: 1vw 2vw 3vw rgb(221, 134, 221);
-    
-    }
-}
-@keyframes mymove1 {
-    15% { box-shadow: 1vw 2vw 3vw rgb(82, 109, 168);
-       margin-bottom: 2rem;
-       
-    
-    }
-}
-
 /* Animation for auto text types */
 
 @keyframes text {

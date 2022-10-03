@@ -54,6 +54,7 @@
     .menubar {
         border-radius: 5px;
         position: absolute;
+        top: 6.6rem;
         z-index: 111;
         margin-top: 0.1rem;
         margin-left: 0.1rem;

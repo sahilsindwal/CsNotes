@@ -22,6 +22,9 @@ body {
 }
 
 nav {
+    position: fixed;
+    z-index: 1111;
+    width: 100%;
     padding: 0px 50px 0px 90px;
     height: 100px;
     background: #ef32d9;
@@ -89,6 +92,7 @@ nav ul li {
 }
 
 .main {
+    padding-top: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,8 +170,6 @@ nav ul li {
 
 .course_book_heading {
     font-size: 1rem;
-    /* margin-right: 2rem; */
-    /* border: 2px solid red; */
     text-align: center;
 
 }

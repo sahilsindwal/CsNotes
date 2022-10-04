@@ -108,7 +108,7 @@ nav ul li {
 .wel h1 {
     color: #daf8f8;
     font-size: 2.3rem;
-    margin-bottom: 1rem;
+    
 }
 
 
@@ -161,6 +161,11 @@ nav ul li {
 }
 
 .search_button {
+    padding: 0 1rem;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     background-color: #b1dde6;
     height: 30px;

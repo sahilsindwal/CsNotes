@@ -1,6 +1,23 @@
 @media screen and (max-width:960px) {
 
-  nav ul li  .ss {
+    .wel {
+        width: 100%;
+        text-align: center;
+    }
+
+    .wel h1 {
+        width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .welcome {
+        display: inline-block;
+        border: 2px solid red;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    nav ul li .ss {
         display: none;
 
     }
@@ -35,13 +52,14 @@
         height: 90%;
 
     }
-    
+
 
     /********* Work for sidebar menu****/
-    .javac{ 
+    .javac {
         flex-direction: column;
-    
+
     }
+
     .java_menu {
         display: none;
         width: 100%;
@@ -96,7 +114,8 @@
 
 @media print {
 
-    .java_menu, .jump_buttons_updated,
+    .java_menu,
+    .jump_buttons_updated,
     footer,
     nav ul {
 
@@ -123,5 +142,8 @@
         margin-bottom: 0.4rem;
     }
 
+    .main {
+        height: 270px;
+    }
 
 }

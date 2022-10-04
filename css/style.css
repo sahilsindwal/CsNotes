@@ -150,6 +150,7 @@ nav ul li {
 }
 
 .searchb {
+    outline: none;
     text-align: center;
     font-size: 1rem;
     width: 40%;

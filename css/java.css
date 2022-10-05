@@ -6,6 +6,7 @@
 .javac{
     display: flex;
     padding-top: 5rem; 
+    min-height: 100vh;
 
 }
 
@@ -51,8 +52,7 @@
 .java_notes{
     padding-top: 5rem ;
     max-width: 78%;
-    height: 90%;
-    
+    height: 90%;  
 }
 
 .java_notes h2{

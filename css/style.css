@@ -16,11 +16,6 @@ body {
     background: #f4f9fa;
 }
 
-.notes {
-    color: rgb(75, 137, 218);
-
-}
-
 nav {
     opacity: 0.95;
     position: fixed;
@@ -40,11 +35,17 @@ nav {
     box-shadow: 1px 1px 1px 1px #c3e7ee;
 
 }
+.logo h2 {
+    font-family: 'Tangerine', serif;
+    color: rgb(94, 22, 94);
+    font-size: 2.7rem;
+    font-weight: 900;
+    text-shadow: 7px 5px 6px; 
+}
 
 nav .logo {
     font-size: 33px;
     color: rgb(40, 185, 161);
-    ;
     font-weight: 600;
     text-align: center;
     margin-bottom: 10px;
@@ -141,7 +142,7 @@ nav ul li {
     margin-top: 0.8rem;
     margin-left: 3rem;
     color: #4ca2cd;
-    font-size 2rem
+    font-size: 2rem;
 }
 
 /* search bar work start from here */
@@ -155,7 +156,9 @@ nav ul li {
 .searchb {
     outline: none;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.6rem;
+    font-weight: 900;
+    font-family: 'Tangerine', serif;
     width: 40%;
     height: 30px;
     background-color: #c3e7ee;

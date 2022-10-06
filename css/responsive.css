@@ -145,4 +145,15 @@
         height: 270px;
     }
 
+    .searchb{
+        font-size: 0.8rem;
+    }
+
+    .redHead{
+        font-size: 0.8rem;
+    }
+    .auto{
+        font-size: 1rem;
+    }
+
 }

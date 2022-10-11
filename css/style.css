@@ -18,11 +18,12 @@ body {
 }
 
 nav {
+    align-items: center;
     opacity: 0.95;
     position: fixed;
     z-index: 1111;
     width: 100%;
-    padding: 0px 50px 0px 90px;
+    /* padding: 0px 50px 0px 90px; */
     height: 100px;
     background: #ef32d9;
     /* fallback for old browsers */
@@ -31,7 +32,7 @@ nav {
     background: linear-gradient(to right, #89fffd, #ef32d9);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    align-items: center;
+    /* align-items: center; */
     /* border-bottom: 3px solid  #b2edf7; */
     box-shadow: 1px 1px 1px 1px #c3e7ee;
 
@@ -46,9 +47,10 @@ nav {
 }
 
 nav .logo {
+    border:2px solid  #3494E6;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
     font-size: 33px;
     color: rgb(40, 185, 161);
     font-weight: 600;
@@ -468,11 +470,16 @@ footer i:hover {
 /* Night and Dark Mode works */
 
 
-.ssb{
-    position: relative;
-    top: 1rem;
-    left:  12rem;   
+.logo h2 {
+    width: 50%;
 }
+ .ssb{ 
+    text-align: end;
+    width: 50%;
+    border: 2px solid red;
+    margin-left: 10px;
+    
+} 
 
 .drk{
     background: #000000;

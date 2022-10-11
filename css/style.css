@@ -47,7 +47,6 @@ nav {
 }
 
 nav .logo {
-    border:2px solid  #3494E6;
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
@@ -56,6 +55,10 @@ nav .logo {
     font-weight: 600;
     text-align: center;
     margin-bottom: 10px;
+}
+
+.head{
+    text-align: center;
 }
 
 nav ul {
@@ -471,12 +474,11 @@ footer i:hover {
 
 
 .logo h2 {
-    width: 50%;
+    width: 95%;
 }
  .ssb{ 
+    width: 5%;
     text-align: end;
-    width: 50%;
-    border: 2px solid red;
     margin-left: 10px;
     
 } 

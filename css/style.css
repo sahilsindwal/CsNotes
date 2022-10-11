@@ -36,15 +36,19 @@ nav {
     box-shadow: 1px 1px 1px 1px #c3e7ee;
 
 }
+
 .logo h2 {
     font-family: 'Tangerine', serif;
     color: rgb(94, 22, 94);
     font-size: 2.7rem;
     font-weight: 900;
-    text-shadow: 7px 5px 6px; 
+    text-shadow: 7px 5px 6px;
 }
 
 nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 33px;
     color: rgb(40, 185, 161);
     font-weight: 600;
@@ -58,7 +62,7 @@ nav ul {
     list-style: none;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 
@@ -112,7 +116,7 @@ nav ul li {
 .wel h1 {
     color: #daf8f8;
     font-size: 2.3rem;
-    
+
 }
 
 
@@ -149,8 +153,8 @@ nav ul li {
 /* search bar work start from here */
 .search {
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
@@ -182,7 +186,7 @@ nav ul li {
     border-bottom-right-radius: 7px;
 }
 
-.search_button:hover{
+.search_button:hover {
     color: #A43931;
 }
 
@@ -327,7 +331,7 @@ nav ul li {
 footer {
     background-color: rgb(48, 46, 48);
     font-family: sans-serif;
-    
+
 }
 
 .quick h1 {
@@ -369,15 +373,17 @@ footer {
     width: max-content;
     margin-left: 3.2rem;
     padding-bottom: 2px;
-    
+
 }
 
-.followUs h4:hover, .dh:hover {
+.followUs h4:hover,
+.dh:hover {
     color: #3494E6;
-    border-bottom: 2px solid  rgb(211, 97, 21);
-    transition:  1s;
-    
+    border-bottom: 2px solid rgb(211, 97, 21);
+    transition: 1s;
+
 }
+
 .shear {
     display: flex;
     align-items: center;
@@ -421,7 +427,7 @@ footer i:hover {
 }
 
 
-.dh{
+.dh {
     font-size: 12px;
     border-bottom: 2px solid rgb(66, 61, 61);
     width: max-content;
@@ -456,4 +462,19 @@ footer i:hover {
 .bb {
     color: rgb(255, 255, 255);
     font-size: 1.3rem;
+}
+
+
+/* Night and Dark Mode works */
+
+
+.ssb{
+    position: relative;
+    top: 1rem;
+    left:  12rem;   
+}
+
+.drk{
+    background: #000000;
+    color: wheat;
 }

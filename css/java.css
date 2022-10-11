@@ -7,7 +7,6 @@
     display: flex;
     padding-top: 5rem; 
     min-height: 100vh;
-
 }
 
 
@@ -17,9 +16,7 @@
     width: 24%;
     font-size: 1.3rem;
     background: #ebf7fa;
-    box-shadow: 1px 1px 6px 3px #d8dddf;
-
-    
+    box-shadow: 1px 1px 6px 3px #d8dddf;    
 }
 
 .java_menu ul{

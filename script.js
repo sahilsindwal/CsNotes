@@ -20,17 +20,3 @@ bar.addEventListener('click', () => {
 });
 
 
-//Night and Dark Mode works
-
-
-let drkm = document.querySelector('.javac');
-drk = document.querySelector('.java_menu');
-let btn = document.querySelector('.ssb');
-console.log('hello')
-btn.addEventListener('click', () => {
-    btn.classList.toggle('bxs-moon')
-    drk.classList.toggle("drk");
-    drkm.classList.toggle("drk");
-
-
-})

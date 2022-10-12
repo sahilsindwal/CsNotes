@@ -23,7 +23,7 @@ nav {
     position: fixed;
     z-index: 1111;
     width: 100%;
-    padding: 0px 50px 0px 90px;
+    /* padding: 0px 50px 0px 90px; */
     height: 100px;
     background: #ef32d9;
     /* fallback for old browsers */
@@ -32,7 +32,8 @@ nav {
     background: linear-gradient(to right, #89fffd, #ef32d9);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    align-items: center;
+    /* align-items: center; */
+    /* border-bottom: 3px solid  #b2edf7; */
     box-shadow: 1px 1px 1px 1px #c3e7ee;
 
 }
@@ -47,13 +48,17 @@ nav {
 
 nav .logo {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
     font-size: 33px;
     color: rgb(40, 185, 161);
     font-weight: 600;
     text-align: center;
     margin-bottom: 10px;
+}
+
+.head{
+    text-align: center;
 }
 
 nav ul {
@@ -88,6 +93,9 @@ nav ul li {
 
 .ico {
     color: #000000;
+    /* color: #19547b; */
+    /* color: #429ef3; */
+    /* fallback for old browsers */
     font-size: 1.8rem;
 
 }
@@ -108,6 +116,7 @@ nav ul li {
 
 }
 
+/* box-shadow: 2px 2px 2px 2px rgb(141, 167, 221); */
 
 .wel h1 {
     color: #daf8f8;
@@ -393,6 +402,7 @@ footer {
 
 footer i:hover {
     color: #e4f6fa;
+    /* color: rgb(221, 85, 85); */
     transition: 0.5s;
 }
 
@@ -458,3 +468,67 @@ footer i:hover {
     color: rgb(255, 255, 255);
     font-size: 1.3rem;
 }
+
+
+/* Night and Dark Mode works */
+
+
+.logo h2 {
+    width: 95%;
+}
+ .ssb{ 
+    width: 5%;
+    text-align: end;
+    margin-left: 10px;
+    
+} 
+
+.drk{
+    background: #000000;
+    color: wheat;
+}
+
+
+.introduction{
+    width: 100% ;
+    padding-right: 1rem;
+    /* border: 2px solid red; */
+    max-width: 100%;
+    
+
+}
+
+.intohead{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    border-radius: 10px;
+    height: 50%;
+    background-color: #e4fcff;
+    box-shadow: 1px 1px 7px 1px #4f5152;
+}
+
+.intromoti{
+    padding: 1rem;
+    color: rgb(85, 77, 77);
+    font-family: 'Gemunu Libre', sans-serif;
+    letter-spacing: 2px;
+}
+
+.introimg{
+/* border: 2px solid red; */
+  position: relative;
+  top: 6rem;
+
+}
+
+.define{
+    box-shadow: 1px 1px 7px 1px #4f5152;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:6rem 1rem 1rem 1rem;
+
+}
+

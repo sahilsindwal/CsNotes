@@ -33,12 +33,13 @@
 
 /* testimonial work */
 .container {
+  margin-bottom: 2rem;
   height: 30rem;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff;
+  background: #f4f9fa;
 }
 
 
@@ -46,9 +47,10 @@
   position: relative;
   max-width: 900px;
   width: 100%;
-  padding: 50px 0;
+  padding: 20px 0;
   overflow: hidden;
 }
+
 .testimonial .image {
   height: 170px;
   width: 170px;

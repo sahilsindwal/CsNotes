@@ -382,7 +382,7 @@ footer {
 }
 
 .followUs h4:hover,
-.dh:hover {
+.dh:hover, .readmore h3:hover {
     color: #3494E6;
     border-bottom: 2px solid rgb(211, 97, 21);
     transition: 1s;
@@ -402,16 +402,9 @@ footer {
 
 footer i:hover {
     color: #e4f6fa;
-    /* color: rgb(221, 85, 85); */
     transition: 0.5s;
 }
 
-.m-logo {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-
-}
 
 .m-logo img {
 
@@ -429,6 +422,7 @@ footer i:hover {
     margin-right: 20px;
     text-align: center;
 
+
 }
 
 
@@ -436,7 +430,6 @@ footer i:hover {
     font-size: 12px;
     border-bottom: 2px solid rgb(66, 61, 61);
     width: max-content;
-    margin-left: 1.2rem;
     padding-bottom: 3px;
 }
 
@@ -488,7 +481,6 @@ footer i:hover {
 
 
 .intohead{
-    /* border: 2px solid red; */
     max-width: 100%;
     display: flex;
     justify-content: center;
@@ -527,6 +519,7 @@ footer i:hover {
 }
 
 .readmore h3 {
+    border-bottom: 2px solid rgb(184, 173, 173);
     opacity: 0.6;
     font-size: 1.3rem;
 }

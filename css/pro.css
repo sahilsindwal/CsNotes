@@ -1,13 +1,5 @@
 /* Google Fonts - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-
 
 /* project section work */
 
@@ -31,68 +23,6 @@
   margin-bottom: 1rem;
 }
 
-.bgg {
-  margin: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-}
-.box img:hover,
-.box img:hover,
-.box img:hover {
-  scale: 120%;
-  transition: 1s;
-  margin: 150px 30px;
-  position: relative;
-  left: 50px;
-  background: linear-gradient(
-    90deg,
-    hsla(291, 79%, 51%, 1) 0%,
-    hsla(240, 91%, 73%, 1) 100%
-  );
-
-  background: -moz-linear-gradient(
-    90deg,
-    hsla(291, 79%, 51%, 1) 0%,
-    hsla(240, 91%, 73%, 1) 100%
-  );
-
-  background: -webkit-linear-gradient(
-    90deg,
-    hsla(291, 79%, 51%, 1) 0%,
-    hsla(240, 91%, 73%, 1) 100%
-  );
-
-  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#C621E5", endColorstr="#7D7CF9", GradientType=1);
-  border-radius: 20px;
-}
-
-.cc:hover {
-  scale: 120%;
-  transition: 1s;
-  margin: 150px 30px;
-  background: linear-gradient(
-    90deg,
-    hsla(291, 79%, 51%, 1) 0%,
-    hsla(240, 91%, 73%, 1) 100%
-  );
-
-  background: -moz-linear-gradient(
-    90deg,
-    hsla(291, 79%, 51%, 1) 0%,
-    hsla(240, 91%, 73%, 1) 100%
-  );
-
-  background: -webkit-linear-gradient(
-    90deg,
-    hsla(291, 79%, 51%, 1) 0%,
-    hsla(240, 91%, 73%, 1) 100%
-  );
-
-  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#C621E5", endColorstr="#7D7CF9", GradientType=1);
-  border-radius: 20px;
-}
 
 .box img {
   max-width: 100%;
@@ -103,6 +33,7 @@
 
 /* testimonial work */
 .container {
+  border: 2px solid red;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -136,7 +67,7 @@
 }
 .slide p {
   text-align: center;
-  padding: 0 160px;
+  padding: 0 110px;
   font-size: 14px;
   font-weight: 400;
   color: rgb(0, 0, 0);

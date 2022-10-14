@@ -489,21 +489,13 @@ footer i:hover {
 }
 
 
-.introduction{
-    width: 100% ;
-    padding-right: 1rem;
-    /* border: 2px solid red; */
-    max-width: 100%;
-    
-
-}
-
 .intohead{
+    /* border: 2px solid red; */
     max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin: 4rem 2rem 0 2rem;
     border-radius: 10px;
     height: 50%;
     background-color: #e4fcff;
@@ -511,6 +503,7 @@ footer i:hover {
 }
 
 .intromoti{
+    /* border: 2px solid red; */
     padding: 1rem;
     color: rgb(85, 77, 77);
     font-family: 'Gemunu Libre', sans-serif;
@@ -518,17 +511,42 @@ footer i:hover {
 }
 
 .introimg{
-/* border: 2px solid red; */
-  position: relative;
-  top: 6rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    box-shadow: 1px 1px 3px black;
+    max-width: 25%;
+    float: right;
 
 }
 
-.define{
-    box-shadow: 1px 1px 7px 1px #4f5152;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding:6rem 1rem 1rem 1rem;
-
+.readmore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 2rem;
 }
+
+.readmore h3 {
+    opacity: 0.6;
+    font-size: 1.3rem;
+}
+.readmore i {
+    opacity: 0.6;
+    font-size: 2.5rem;
+    color: #3494E6;
+    cursor: pointer;
+    
+}
+
+.morecourse{
+    display: none;
+}
+
+
+
+
+
+
 

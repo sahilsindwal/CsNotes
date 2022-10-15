@@ -223,8 +223,17 @@ nav ul li {
     text-align: center;
     transition: transform 0.6s;
     border-radius: 15px;
+    animation: fadeEffect 1.5s; /* Fading effect takes 1 second */
 
 }
+
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
 
 .Course_btn:hover {
     background-color: #e4f6fa;

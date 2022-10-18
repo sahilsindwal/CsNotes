@@ -350,12 +350,17 @@ footer {
 
 .quick h1 {
     text-align: center;
-    color: white;
-    font-size: 1.4rem;
-    padding-top: 1rem;
-    margin-bottom: 2rem;
+    font-family: 'Tangerine', serif;
+    color: rgb(95, 93, 95);
+    font-size: 2.7rem;
+    font-weight: 900;
+    text-shadow: 7px 5px 6px;
 
 }
+
+.quick h1:hover{
+    color: rgb(138, 133, 138);
+} 
 
 .quick ul {
     display: flex;

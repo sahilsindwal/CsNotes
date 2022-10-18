@@ -18,13 +18,16 @@ body {
 }
 
 nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     opacity: 0.95;
     position: fixed;
     z-index: 1111;
     width: 100%;
     /* padding: 0px 50px 0px 90px; */
-    height: 100px;
+    height: 110px;
     background: #ef32d9;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);
@@ -62,13 +65,19 @@ nav .logo {
 }
 
 nav ul {
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 1px rgb(99, 86, 131);
     display: flex;
-    max-width: 100%;
+    max-width: 50%;
     list-style: none;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5px;
 
-
+}
+nav ul:hover{
+    box-shadow: 1px 1px 8rem 1px rgb(99, 86, 131);
 }
 
 nav ul li {
@@ -103,7 +112,7 @@ nav ul li {
 
 .main {
     position: relative;
-    top: 100px;
+    top: 110px;
     height: 350px;
     margin-bottom: 8rem;
     background-image: url("../src/header.png");

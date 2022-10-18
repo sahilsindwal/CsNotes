@@ -69,7 +69,7 @@ nav ul {
     border-radius: 10px;
     box-shadow: 1px 1px 6px 1px rgb(99, 86, 131);
     display: flex;
-    max-width: 50%;
+    max-width: 100%;
     list-style: none;
     justify-content: center;
     align-items: center;

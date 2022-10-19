@@ -46,7 +46,17 @@
         height: 90%;
 
     }
-
+    .java_notes h2{
+        font-size: 1rem;
+    
+    }
+    
+    .java_notes p,.java_notes li, .java_notes h3{
+        font-size: 0.9rem;
+        padding: 6px 2px;
+        line-height: 27px;
+    
+    }
 
     /********* Work for sidebar menu****/
     .javac {

@@ -35,10 +35,6 @@ nav {
     background: linear-gradient(to right, #89fffd, #ef32d9);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    /* align-items: center; */
-    /* border-bottom: 3px solid  #b2edf7; */
-    box-shadow: 1px 1px 1px 1px #c3e7ee;
-
 }
 
 .logo h2 {

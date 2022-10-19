@@ -354,6 +354,7 @@ footer {
 }
 
 .quick h1 {
+    padding-top: 10px;
     text-align: center;
     font-family: 'Tangerine', serif;
     color: rgb(95, 93, 95);

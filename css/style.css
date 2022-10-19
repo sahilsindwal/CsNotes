@@ -80,6 +80,11 @@ nav ul li {
     margin: 0 6px;
 }
 
+nav ul li a i:hover {
+    color: #e4f6fa;
+    transition: 0.5s;
+}
+
 .ss {
     font-family: 'Gemunu Libre', sans-serif;
     color: rgb(0, 0, 0);
@@ -87,14 +92,16 @@ nav ul li {
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 1px;
-    padding: 8px 10px;
+    padding: 2px 6px;
     transition: all 0.5s ease;
     border-radius: 12px;
 }
 
 .ss:hover {
-    background: rgb(197, 235, 255);
+    background: rgb(174, 75, 255);
 }
+
+
 
 .ico {
     color: #000000;

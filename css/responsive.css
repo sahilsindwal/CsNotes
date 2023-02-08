@@ -135,6 +135,18 @@
 
 
 @media screen and (max-width:584px) {
+ 
+    .flwo{
+       z-index: -1;
+       width: 15px;
+       top: 190px;
+
+    }
+
+    .flwo p {
+        padding: 2px;
+        font-size: 10px;
+    }
 
     .copy {
         flex-direction: column;

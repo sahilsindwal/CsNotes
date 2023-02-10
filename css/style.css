@@ -18,6 +18,8 @@ body {
 }
 
 nav {
+    padding: 4rem;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,12 +50,20 @@ nav {
 nav .logo {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
     font-size: 33px;
     color: rgb(40, 185, 161);
     font-weight: 600;
     text-align: center;
+    width: max-content;
+    padding: 8px;
     margin-bottom: 10px;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 50%;
+    border-bottom: 5px solid rgb(134, 45, 134);
+    box-shadow: 5px 5px 5px  rgb(57, 57, 58);
 }
 
 .head{
@@ -65,11 +75,11 @@ nav ul {
     border-radius: 10px;
     box-shadow: 1px 1px 6px 1px rgb(99, 86, 131);
     display: flex;
-    max-width: 100%;
+    max-width: max-content;
     list-style: none;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
 }
 nav ul:hover{
@@ -116,9 +126,9 @@ nav ul li a i:hover {
 .main {
     z-index: 11;
     position: relative;
-    top: 110px;
+    top: 125px;
     height: 350px;
-    margin-bottom: 8rem;
+    margin-bottom: 9.5rem;
     background-image: url("../src/header.png");
     padding-top: 3rem;
     background-color: #f4f9fa;
@@ -126,6 +136,9 @@ nav ul li a i:hover {
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px  rgb(57, 57, 58);
 
 }
 

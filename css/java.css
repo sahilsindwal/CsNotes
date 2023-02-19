@@ -1,32 +1,32 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.javac{
+.javac {
     display: flex;
-    padding-top: 5rem; 
+    padding-top: 5rem;
     min-height: 100vh;
 }
 
 
-.java_menu{
+.java_menu {
     margin-top: 1.4rem;
     text-align: center;
     width: 24%;
     font-size: 1.3rem;
     background: #ebf7fa;
-    box-shadow: 1px 1px 6px 3px #d8dddf;    
+    box-shadow: 1px 1px 6px 3px #d8dddf;
 }
 
-.java_menu ul{
+.java_menu ul {
     margin-top: 2rem;
     list-style: none;
 }
 
-.java_menu ul li{
+.java_menu ul li {
     margin-bottom: 5px;
-    padding:5px 0 4px 10px;       
+    padding: 5px 0 4px 10px;
 }
 
 .java_menu ul li a {
@@ -35,7 +35,7 @@
     color: rgb(189, 17, 132);
 }
 
-.java_menu ul li a:hover{
+.java_menu ul li a:hover {
     padding-left: 1rem;
     font-size: 1.2rem;
     border-bottom: 2px solid rgb(230, 111, 214);
@@ -46,13 +46,13 @@
 }
 
 /*************************duplicate code*********/
-.java_notes{
+.java_notes {
     padding: 5rem 1rem;
     max-width: 78%;
-    height: 90%;  
+    height: 90%;
 }
 
-.java_notes h2{
+.java_notes h2 {
     padding: 5px;
     font-size: 2rem;
 
@@ -63,7 +63,9 @@
     margin: 10px 0 10px 30px;
 }
 
-.java_notes p,.java_notes li, .java_notes h3{
+.java_notes p,
+.java_notes li,
+.java_notes h3 {
     font-size: 1.3rem;
     padding: 10px 4px;
 
@@ -72,33 +74,33 @@
 .java_notes ul {
     margin-top: 10px;
     margin-left: 30px;
-    
+
 }
 
 
 
 /****************Jump buttons Work here *****/
- 
-.jumper{
+
+.jumper {
     display: flex;
     justify-content: end;
     align-items: center;
-    
+
 }
 
 .jumper a i {
-    
+
     font-size: 2.4rem;
     color: #000;
     margin-right: 0.7rem;
-    border-radius:50px;
+    border-radius: 50px;
     background-color: rgb(230, 111, 214);
-    
+
 }
 
 .jumper a i:hover {
     background-color: rgb(177, 162, 233);
-    
+
 }
 
 .jump_buttons_updated {
@@ -107,11 +109,12 @@
     justify-items: center;
     max-width: 100%;
     margin-bottom: 2rem;
-    
-    
+
+
 }
 
-.jump_buttons_updated  a {
+.jump_buttons_updated a {
+    position: relative;
     color: black;
     font-size: 1rem;
     text-decoration: none;
@@ -121,7 +124,32 @@
     border-radius: 10px;
     text-decoration: none;
     box-shadow: 1vw 1vw 1vw rgb(221, 134, 221);
+    z-index: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    overflow: hidden;
 }
-.jump_buttons_updated  a:hover{
+
+.jump_buttons_updated a:hover {
     background-color: rgb(177, 162, 233);
+}
+
+.jump_buttons_updated a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(217, 144, 224) 0%, rgb(114, 12, 100) 100%);
+    transition: 0.5s ease;
+    z-index: -1;
+
+}
+
+.jump_buttons_updated a:hover::before {
+    width: 100%;
+
 }
